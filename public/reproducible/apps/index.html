@@ -40,7 +40,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#4caf50">
   
 
   
@@ -308,7 +308,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1></h1>
+          <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
           <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
@@ -317,7 +317,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="" autocapitalize="off"
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
@@ -353,7 +353,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="">
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
     </button>
     
@@ -600,7 +600,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
   </button>
 
   
-  <input name="q" type="search" class="form-control" placeholder="" autocomplete="off">
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
   
 </form>
 
@@ -734,7 +734,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
     
     <div class="d-none d-xl-block col-xl-2 docs-toc">
       <ul class="nav toc-top">
-        <li><a href="#" id="back_to_top" class="docs-toc-title"></a></li>
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
       </ul>
 
       <nav id="TableOfContents">
@@ -774,14 +774,14 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
   
   
   <div class="post-nav-item">
-    <div class="meta-nav"></div>
+    <div class="meta-nav">Previous</div>
     <a href="/reproducible/data_maps/" rel="next">Data Maps</a>
   </div>
   
   
   
   <div class="post-nav-item">
-    <div class="meta-nav"></div>
+    <div class="meta-nav">Next</div>
     <a href="/reproducible/experimental/" rel="prev">Experimental &amp; Big Data Sources</a>
   </div>
   
@@ -792,7 +792,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
         </div>
 
         <div class="body-footer">
-          <p> Jul 10, 2020</p>
+          <p>Last updated on Jul 10, 2020</p>
 
           
 
@@ -893,12 +893,12 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
     
     <script>
       const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"","placeholder":"","results":""};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
-        'post': "",
-        'project': "",
-        'publication' : "",
-        'talk' : ""
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
         };
     </script>
     
@@ -969,7 +969,7 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title"></h5>
+        <h5 class="modal-title">Cite</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -979,10 +979,10 @@ Analysts usually spend at least 80% of their work with data processing steps: pu
       </div>
       <div class="modal-footer">
         <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> 
+          <i class="fas fa-copy"></i> Copy
         </a>
         <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> 
+          <i class="fas fa-download"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>

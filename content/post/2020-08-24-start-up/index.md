@@ -37,12 +37,12 @@ Our work will comply with the [Open Policy Analysis](https://www.bitss.org/opa/)
 
 ## Do you want to help our start? {#help}
 
-We would like to enter into the validation Lab of one of the best artificial intelligence incubators in the world very soon. Talented team members, letters of intents and assignments from organizations will give a lot of credibility to our start [Meet our team >>>](/team).
+We would like to enter into the validation Lab of one of the best artificial intelligence incubators in the world very soon. Talented team members, letters of intents and assignments from organizations will give a lot of credibility to our start [Meet our team »](/team).
 
-- Put as in contact with people who love to program in R and interested in automating business and social science research and primary data collection such as surveying. [Check out what sort of code we create >>>](#featured)
+- Put as in contact with people who love to program in R and interested in automating business and social science research and primary data collection such as surveying. [Check out what sort of code we create »](#featured)
 
 - Introduce us to people who need data and information to make better informed decision and analysis in music, film, book publishing, photography services or socially responsible finance.
 
-- Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations. [See our survey harmonization examples >>>](http://retroharmonize.satellitereport.com/)
+- Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations. [See our survey harmonization examples »](http://retroharmonize.satellitereport.com/)
 
 *Thanks again for your good wishes and encouragements, and hope to hear from you soon!*

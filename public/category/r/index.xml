@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R | Creative Observatories</title>
+    <title>R on Creative Observatories</title>
     <link>/category/r/</link>
-      <atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
-    <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 16:00:00 +0200</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>R</title>
-      <link>/category/r/</link>
-    </image>
+    <description>Recent content in R on Creative Observatories</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 25 Jun 2020 16:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>eurobarometer R package</title>
       <link>/publication/eurobarometer_2020/</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
+      <pubDate>Thu, 25 Jun 2020 16:00:00 +0600</pubDate>
+      
       <guid>/publication/eurobarometer_2020/</guid>
       <description>&lt;p&gt;Please review the 
 &lt;a href=&#34;http://eurobarometer.danielantal.eu/articles/workflow.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workflow&lt;/a&gt; here.&lt;/p&gt;
@@ -25,7 +26,8 @@
     <item>
       <title>regions R package</title>
       <link>/publication/regions_2020/</link>
-      <pubDate>Wed, 03 Jun 2020 17:00:00 +0200</pubDate>
+      <pubDate>Wed, 03 Jun 2020 17:00:00 +0600</pubDate>
+      
       <guid>/publication/regions_2020/</guid>
       <description>&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;You can install the development version from
@@ -131,7 +133,8 @@ Relabelling&lt;/a&gt;&lt;/li&gt;
     <item>
       <title>iotables R package</title>
       <link>/publication/iotables_2018/</link>
-      <pubDate>Sat, 22 Dec 2018 11:00:00 +0100</pubDate>
+      <pubDate>Sat, 22 Dec 2018 11:00:00 +1200</pubDate>
+      
       <guid>/publication/iotables_2018/</guid>
       <description>&lt;p&gt;
 &lt;a href=&#34;http://iotables.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iotables&lt;/a&gt; processes all the symmetric input-output tables of the EU member states, and calculates direct, indirect and induced effects, multipliers for GVA, employment, taxation. These are important inputs into policy evaluation, business forecasting, or granting/development indicator design. iotables is used by about 800 experts around the world.&lt;/p&gt;

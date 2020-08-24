@@ -66,4 +66,6 @@ We would like to help small- and medium sized organizations in business, policy 
 
 - Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations.
 
+You can share this in with our [start-up post»](http://dataobservatory.eu/post/2020-08-24-start-up/).
+
 Thanks again for your good wishes and encouragements, and hope to hear from you soon!
