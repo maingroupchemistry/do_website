@@ -54,9 +54,9 @@ user_groups:
 
 We would like to make the benefits of highly automated, reproducible research workflows for research & development intensive micro-, small- and medium sized companies, particularly in the creative, cultural and copyright-based industries. 
 
-An observatory is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) that we will finalize until 10 September 2020.
-
 We would like to help small- and medium sized organizations in business, policy research, NGOs, data journalism teams to automate their data acquisition, processing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.
+
+An observatory is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) that we will finalize until 10 September 2020.
 
 ## Do you want to help our start?
 
@@ -64,7 +64,7 @@ We would like to help small- and medium sized organizations in business, policy 
 
 - Introduce us to people who need data and information to make better informed decision and analysis in music, film, book publishing, photography services or socially responsible finance.
 
-- Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations.
+- Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations. 
 
 You can share this in with our [start-up post»](http://dataobservatory.eu/post/2020-08-24-start-up/).
 
