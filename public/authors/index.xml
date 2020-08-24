@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Creative Observatories</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 24 Aug 2020 10:15:00 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Daniel Antal, CFA</title>
+      <link>/author/daniel-antal-cfa/</link>
+      <pubDate>Mon, 24 Aug 2020 10:15:00 +0200</pubDate>
+      <guid>/author/daniel-antal-cfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Réka Szentirmay</title>
+      <link>/author/reka-szentirmay/</link>
+      <pubDate>Mon, 24 Aug 2020 10:15:00 +0200</pubDate>
+      <guid>/author/reka-szentirmay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel Antal</title>
+      <link>/author/daniel-antal/</link>
+      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
+      <guid>/author/daniel-antal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/</guid>
+      <description>&lt;p&gt;We would like to make the benefits of highly automated, reproducible research workflows for research &amp;amp; development intensive micro-, small- and medium sized companies, particularly in the creative, cultural and copyright-based industries.&lt;/p&gt;
+&lt;p&gt;An observatory is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research. We are working on the launch of three observatories, starting with 
+&lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;music.dataobservatory.eu&lt;/a&gt; that we will finalize until 10 September 2020.&lt;/p&gt;
+&lt;p&gt;We would like to help small- and medium sized organizations in business, policy research, NGOs, data journalism teams to automate their data acquisition, processing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.&lt;/p&gt;
+&lt;h2 id=&#34;do-you-want-to-help-our-start&#34;&gt;Do you want to help our start?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Put as in contact with people who love to program in R and interested in automating business and social science research and primary data collection such as surveying.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduce us to people who need data and information to make better informed decision and analysis in music, film, book publishing, photography services or socially responsible finance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks again for your good wishes and encouragements, and hope to hear from you soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Daniel</title>
+      <link>/author/daniel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/daniel/</guid>
+      <description>&lt;p&gt;Daniel Antal is an experienced management consultant who applies a thoroughly professional approach based in economics, finance and data science in his practice. As a quantitatively trained financial economist, he uses a variety of sound valuation methods, corporate finance models, forecasting tools and economic impact analysis for his recommendations, and applies the standards and ethical guidelines of the Chartered Financial Analyst Institute.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Istvan Zsoldos</title>
+      <link>/author/istvan-zsoldos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/istvan-zsoldos/</guid>
+      <description>&lt;p&gt;Istvan has experience in macroeconomics, corporate advisory and using data science to reveal information hidden in the data. He has experience with working for large corporations, having served as the lead economist of WSE:MOL as well as being an independent consultant. He is a contributor to the 
+&lt;a href=&#34;publication/regions_2020/&#34;&gt;regions package&lt;/a&gt; that we use for the creation of sub-national indicators and data panels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Marta</title>
+      <link>/author/marta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/marta/</guid>
+      <description>&lt;p&gt;Marta is an experienced researcher specializing in harmonizing data from primary data sources, particularly social surveys. Her work applies quantitative methods to cross-national comparative analyses of political attitudes and behavior, with special attention paid to data quality and comparability. Her work is particularly important in integrating market research and scientific research data into larger data assets to understand international comparison or changes over time. She is a co-creator of the 
+&lt;a href=&#34;publication/eurobarometer_2020/&#34;&gt;eurobarometer package&lt;/a&gt; and the 
+&lt;a href=&#34;http://retroharmonize.satellitereport.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; package.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reka</title>
+      <link>/author/reka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/reka/</guid>
+      <description>&lt;p&gt;Réka Szentirmay is a seasoned localisation professional with more than a decade of experience in translations, technical documentation and project management. With a background in journalism, social sciences and the theory of photography and film, Szentirmay strengthens the team from the perspective of digital humanities.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

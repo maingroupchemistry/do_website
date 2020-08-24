@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eurobarometer | Creative Observatories</title>
+    <link>/tag/eurobarometer/</link>
+      <atom:link href="/tag/eurobarometer/index.xml" rel="self" type="application/rss+xml" />
+    <description>eurobarometer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 16:00:00 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>eurobarometer</title>
+      <link>/tag/eurobarometer/</link>
+    </image>
+    
+    <item>
+      <title>eurobarometer R package</title>
+      <link>/publication/eurobarometer_2020/</link>
+      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
+      <guid>/publication/eurobarometer_2020/</guid>
+      <description>&lt;p&gt;Please review the 
+&lt;a href=&#34;http://eurobarometer.danielantal.eu/articles/workflow.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workflow&lt;/a&gt; here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

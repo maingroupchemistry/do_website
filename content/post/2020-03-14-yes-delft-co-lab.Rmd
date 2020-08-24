@@ -1,0 +1,22 @@
+---
+title: Yes!Delft Co-Lab
+author: Daniel Antal
+date: '2020-03-14'
+slug: yes-delft-co-lab
+categories: []
+tags:
+  - team-building
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-03-14T20:55:37+01:00'
+featured: yes
+draft: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+I participated on the Yes!Delft Co-Lab in Delft. 

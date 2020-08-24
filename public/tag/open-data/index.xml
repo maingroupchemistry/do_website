@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open-data | Creative Observatories</title>
+    <link>/tag/open-data/</link>
+      <atom:link href="/tag/open-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>open-data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 24 Aug 2020 10:15:00 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>open-data</title>
+      <link>/tag/open-data/</link>
+    </image>
+    
+    <item>
+      <title>Starting-up</title>
+      <link>/post/2020-08-24-start-up/</link>
+      <pubDate>Mon, 24 Aug 2020 10:15:00 +0200</pubDate>
+      <guid>/post/2020-08-24-start-up/</guid>
+      <description>&lt;p&gt;The big day has come: the co-founders singed off the documents at the public notary and started the registration of a reproducible research start-up in Leiden.  We got a lot of support from our friends! Your encouragement gives us a lot of energy to accomplish our first milestones.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;As soon as our company is registered, we will even share its name with you:)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In the coming days, we are launching demo versions of our headline products, data observatories. 
+&lt;a href=&#34;https://music.dataobservatory.eu/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;music.dataobservatory.eu&lt;/a&gt; will be a fully automated online service that every day collects, processes, cleans, and publishes scientifically valid data about European music.  Very soon after we will launch two other observatories.&lt;/p&gt;
+&lt;p&gt;The creative and cultural sector, NGOs, most research institutions, data journalism teams are usually very small, and they do not have internal IT or data science capacities.  We would like to provide them a transparent, high quality, and fully open source solution to acquire data, process it without errors, document it and make sense of it. We would like to embrace the idea of open collaboration among creative enterprises, scientific researchers, NGOs, data journalists and policymakers with our work.&lt;/p&gt;
+&lt;p&gt;Our work will comply with the 
+&lt;a href=&#34;https://www.bitss.org/opa/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Policy Analysis&lt;/a&gt; standards developed by the 
+&lt;a href=&#34;https://www.bitss.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berkeley Initiative for Transparency in the Social Sciences&lt;/a&gt; &amp;amp; 
+&lt;a href=&#34;https://cega.berkeley.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Effective Global Action&lt;/a&gt; and the four principles of reproducible research: reviewability, replicability, confirmability and auditability.  We believe that these standards apply in reproducible finance, empirical evidence presentation in courts, or advocating sound policies and producing high-quality journalism.&lt;/p&gt;
+&lt;h2 id=&#34;help&#34;&gt;Do you want to help our start?&lt;/h2&gt;
+&lt;p&gt;We would like to enter into the validation Lab of one of the best artificial intelligence incubators in the world very soon. Talented team members, letters of intents and assignments from organizations will give a lot of credibility to our start 
+&lt;a href=&#34;/team&#34;&gt;Meet our team &amp;raquo;&amp;gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Put as in contact with people who love to program in R and interested in automating business and social science research and primary data collection such as surveying. 
+&lt;a href=&#34;#featured&#34;&gt;Check out what sort of code we create &amp;raquo;&amp;gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduce us to people who need data and information to make better informed decision and analysis in music, film, book publishing, photography services or socially responsible finance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations. 
+&lt;a href=&#34;http://retroharmonize.satellitereport.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;See our survey harmonization examples &amp;raquo;&amp;gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Thanks again for your good wishes and encouragements, and hope to hear from you soon!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reproducible data ingestion in practice</title>
+      <link>/post/2020-07-25-reproducible_ingestion/</link>
+      <pubDate>Fri, 24 Jul 2020 15:00:00 +0200</pubDate>
+      <guid>/post/2020-07-25-reproducible_ingestion/</guid>
+      <description>&lt;h2 id=&#34;how-does-a-reproducible-data-ingestion-look-like-in-practice&#34;&gt;How does a reproducible data ingestion look like in practice?&lt;/h2&gt;
+&lt;p&gt;If your analytical work has used a certain type of data at least two times in the past, it is likely that the data will be needed again.  This is a good time to make the data ingestion automatic and reproducible.  We demonstrate a simple data ingestion from Eurostat.  Daniel is part of the 
+&lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; collective that maintains the 
+&lt;a href=&#34;https://github.com/ropengov/eurostat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurostat&lt;/a&gt; package for reproducible access to the European statistical agencies data warehouse.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(eurostat)
+nuts3_population_raw &amp;lt;- get_eurostat (&amp;quot;demo_r_pjangrp3&amp;quot;) 
+nuts3_population_metadata &amp;lt;- get_eurostat_toc() %&amp;gt;%
+  filter ( code == &amp;quot;demo_r_pjangrp3&amp;quot; ) %&amp;gt;%
+  distinct_all () 
+
+last_update &amp;lt;- nuts3_population_metadata$`last update of data`
+first_data &amp;lt;- nuts3_population_metadata$`data start`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The metadata entries to this statistics suggest that the latest data is from Thursday 14 May, 2020, so it is high time to refresh your data tables and update your charts. Sadly, the metadata suggest that on this occasion the table went through structural changes, so you may get a different spreadsheet table when you downloaded compared to the last occasion.  You may think that this is another reason to automate the ingestion into a well-defined, tidy table format.&lt;/p&gt;
+&lt;table class=&#34;table table-striped table-hover table-condensed table-responsive&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; title &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; code &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; last update of data &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; last table structure change &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; data start &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; data end &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Population on 1 January by age group, sex and NUTS 3 region &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; demo_r_pjangrp3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 14.05.2020 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 14.05.2020 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2014 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2019 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Looking at the head of this raw data, you realize that this is not table, but a little database! It contains population divisions by sex and age groups.  However, your indicator is the total population of each &lt;code&gt;NUTS3&lt;/code&gt; regions, so let’s filter out only the total population for both sexes.&lt;/p&gt;
+&lt;table class=&#34;table table-striped table-hover table-condensed table-responsive&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; sex &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; unit &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; age &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; geo &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; time &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; values &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; T &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NR &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Y_LT5 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NO07 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2018-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 25108 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; M &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NR &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Y10-14 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; DED44 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2014-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 4620 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; F &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NR &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Y45-49 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; FRB &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2014-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 88590 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Looking at the head of this raw data, you realize that this is not table, but a little database! It contains population divisions by sex and age groups.  However, your indicator is the total population of each &lt;code&gt;NUTS3&lt;/code&gt; regions, so let’s filter out only the total population for both sexes.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;nuts3_population &amp;lt;- nuts3_population_raw %&amp;gt;%
+  filter ( sex == &amp;quot;T&amp;quot;,             # for both sexes
+           age == &amp;quot;TOTAL&amp;quot;) %&amp;gt;%     # for all age groups
+  mutate ( year = as.integer(substr(as.character(time), 1,4)), 
+           indicator = paste0(&amp;quot;population_sex-&amp;quot;, sex, &amp;quot;_unit-&amp;quot;, unit, 
+                               &amp;quot;_age-&amp;quot;, age)) %&amp;gt;%
+  select ( -all_of(c(&amp;quot;sex&amp;quot;, &amp;quot;unit&amp;quot;, &amp;quot;age&amp;quot;))) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The following table is already tidy &amp;mdash; each observation corresponds with a small region of Europe.  The filtering information as metadata is included in the indicator&amp;rsquo;s name.&lt;/p&gt;
+&lt;table class=&#34;table table-striped table-hover table-condensed table-responsive&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; geo &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; time &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; values &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; year &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; indicator &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; HU222 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2015-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 253997 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2015 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NO &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2014-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 5107970 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2014 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ES704 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2016-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 112087 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2016 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; FRK12 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2015-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 146219 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2015 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; DE3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2018-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 3613495 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2018 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NL225 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2019-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 400685 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2019 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;data_ingest_files/figure-html/choropleth-1.png&#34; alt=&#34;&#34;&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;The population size is rather homogeneous &amp;mdash; no wonder, the small regions of Europe are exactly defined to be roughly of equal size and easily comparable.&lt;/p&gt;
+&lt;p&gt;You are wondering how you could match this data with your own records, or data acquired from Google about number of restaurants or searchers for concerts?&lt;/p&gt;
+&lt;table class=&#34;table table-striped table-hover table-condensed table-responsive&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; geo &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; time &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; values &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; year &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; indicator &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; IE042 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2017-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 451293 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2017 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; SI044 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2014-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 112848 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2014 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; DE225 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2015-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 77927 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2015 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; PL621 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2016-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 523096 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2016 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; TRB13 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2018-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 273354 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2018 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; FRK24 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; 2018-01-01 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 1261373 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2018 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; population_sex-T_unit-NR_age-TOTAL &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;There is no easy solution for this problem.  Within the EU in the last 20 years there were several thousand internal boundary changes &amp;mdash; states, provinces, regions are rather free to change their internal administration boundaries. Regions are constantly changing their names or their spelling, too. Sometimes they use a standard English translation of their region, sometimes only the national language variants.  In Greece or Bulgaria they do not even use the Latin alphabet!&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://satellitereport.com/author/daniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel&lt;/a&gt; and 
+&lt;a href=&#34;https://satellitereport.com/author/istvan-zsoldos/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Istvan&lt;/a&gt; created and released an open-source code library, 
+&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; to deal with similar issues. It allows the changes between boundary definition between 1999-2021, or the connection of the globally used geographical typology adopted by Google with Eurostat&amp;rsquo;s EU-only definitions.&lt;/p&gt;
+&lt;p&gt;For example, you can already foresee that there are future changes (to be implemented from the year 2021) that will affect two of these regions.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(21)
+validate_for_2021 &amp;lt;- nuts3_population  %&amp;gt;%
+  select ( -all_of(c(&amp;quot;time&amp;quot;, &amp;quot;indicator&amp;quot;)) ) %&amp;gt;%
+  sample_n(8) %&amp;gt;%
+  regions::validate_nuts_regions(., nuts_year = 2021 ) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34;table table-striped table-hover table-condensed table-responsive&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; geo &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; values &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; year &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; typology &lt;/th&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; valid_2021 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; DE248 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 115681 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2018 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; nuts_level_3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; TRUE &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; BG422 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 228141 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2019 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; nuts_level_3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; TRUE &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; UKN13 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 139774 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2014 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; FALSE &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; FRH0 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 3276543 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2014 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; nuts_level_2 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; TRUE &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; DEB3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2031780 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2016 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; nuts_level_2 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; TRUE &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; ITG25 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 335097 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2014 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; NA &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; FALSE &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; DE71A &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 232848 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2016 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; nuts_level_3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; TRUE &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; FI1D5 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 68677 &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 2014 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; nuts_level_3 &lt;/td&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; TRUE &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;There is trouble ahead, but we have a table that is tidy and works for the time being.  Let&amp;rsquo;s save it and document it.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;eurostat::get_bibentry(&amp;quot;demo_r_pjangrp3&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## @Misc{demo_r_pjangrp3_14-05-2020,
+##   title = {Population on 1 January by age group, sex and NUTS 3 region [demo_r_pjangrp3]},
+##   url = {https://ec.europa.eu/eurostat/web/products-datasets/-/demo_r_pjangrp3},
+##   language = {en},
+##   year = {14.05.2020},
+##   publisher = {Eurostat},
+##   author = {{Eurostat}},
+##   urldate = {2020-07-25},
+## }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;what-is-reproducibility-in-this-case&#34;&gt;What is reproducibility in this case?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Replicability&lt;/strong&gt; means that somebody else in your team can get exactly the same data as in this post.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recording exactly what have your analysts downloaded, including source, date, filtering settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Reproducibility&lt;/strong&gt; means that not only your team, but an external auditor or a peer reviewer can easily validate that your data is sound. All our solutions are opens source, and use the most popular statistical programming language, R. Anybody with a basic knowledge of R, or probably even SQL (we use an extension of R that uses SQL-like syntax) can read if everything goes allright. Your team can even modify the code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating a documentation that you updates your reports data citations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Confirmability&lt;/strong&gt; means that somebody who is not using . All our solutions are opens source, and use the most popular statistical programming language, R.  R is supported by Microsofts BI products, SPSS and other statistical software, too. We are not a software company, there is no vendor lock-in, and our work can be confirmed with other statistical software.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data acquired via our data gathering apps is automatically documented, follows tidy formats and valid abbreviations, and can be confirmed in a wide range of statistical and spreadsheet applications, including SPSS, Excel, OpenOffice, Google Spreadsheets.&lt;/li&gt;
+&lt;li&gt;Bringing the data to a tidy format which is easy to join with other data in a spreadsheet application, or stored in a relational database.&lt;/li&gt;
+&lt;li&gt;Validating the data structure, in this case, with special attention to regional boundaries and regional names.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Auditability&lt;/strong&gt; means that external auditors can validate that the data your team uses from our app is correct.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We are following methodological guidelines and definitions set by international bodies such as Eurostat&amp;rsquo;s ESSNet statistical network or IFRS.&lt;/li&gt;
+&lt;li&gt;Our critical software code is not only open source, but goes through various levels of statistical peer-review. We are sending for scientific validation and peer-review our methodology, too.&lt;/li&gt;
+&lt;li&gt;Being open source allows us to make any corrections, updates, should any problem or standard change affect the data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2 unnumbered&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-R-regions&#34;&gt;
+&lt;p&gt;Antal, Daniel. 2020. &lt;em&gt;Regions: Processing Regional Statistics&lt;/em&gt;. &lt;a href=&#34;https://regions.danielantal.eu/&#34;&gt;https://regions.danielantal.eu/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-demo_r_pjangrp3_14-05-2020&#34;&gt;
+&lt;p&gt;Eurostat. n.d. Eurostat. Accessed July 25, 2020. &lt;a href=&#34;https://ec.europa.eu/eurostat/web/products-datasets/-/demo_r_pjangrp3&#34;&gt;https://ec.europa.eu/eurostat/web/products-datasets/-/demo_r_pjangrp3&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-R-eurostat&#34;&gt;
+&lt;p&gt;Lahti, Leo, Janne Huovari, Markus Kainu, and Przemyslaw Biecek. 2020. &lt;em&gt;Eurostat: Tools for Eurostat Open Data&lt;/em&gt;. &lt;a href=&#34;https://CRAN.R-project.org/package=eurostat&#34;&gt;https://CRAN.R-project.org/package=eurostat&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;ref-R-eurostat&#34;&gt;
+&lt;p&gt;Hadley Wickham. 2014. &lt;em&gt;Tidy Data&lt;/em&gt;.Journal of Statistical Software vol 59, no 10.&lt;a href=&#34;https://www.jstatsoft.org/v059/i10&#34;&gt;https://www.jstatsoft.org/v059/i10&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Increase The Value Of Market Research With Open Data And Survey Harmonization</title>
+      <link>/post/2020-07-10-retroharmonize/</link>
+      <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
+      <guid>/post/2020-07-10-retroharmonize/</guid>
+      <description>&lt;p&gt;In the last weeks I have been releasing the early source code of two R packages, 
+&lt;a href=&#34;publication/retroharmonize_2020/&#34;&gt;retroharmonize&lt;/a&gt; for the &lt;em&gt;ex post&lt;/em&gt; harmonization infrastructure of surveys, and  
+&lt;a href=&#34;publication/eurobarometer_2020/&#34;&gt;eurobarometer&lt;/a&gt; for Eurobarometer-specific work, complemented by my earlier release of 
+&lt;a href=&#34;publication/regions_2020/&#34;&gt;regions&lt;/a&gt;, which tracks about 20,000 regional boundary changes of French departments, Polish voivodeships and Hungarian counties, and other sub-national divisions of about 32 European countries.&lt;/p&gt;
+&lt;p&gt;The very technical terms of &lt;em&gt;ex ante&lt;/em&gt; , &lt;em&gt;ex post&lt;/em&gt; or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.&lt;/p&gt;
+&lt;p&gt;In my work, I have used &lt;em&gt;ex ante&lt;/em&gt; harmonized questionnaires with EU survey programs, for example, the harmonized CAP surveys to determine the characteristics of concert audiences in a country, or people who download music to their computers.  The EU has been opening up its own survey programs in a piecemeal fashion, and surveys used by the European Commission, the Parliament, or even the national statistical offices are becoming more and more available.  After harmonizing the questions, I can apply &lt;em&gt;ex post&lt;/em&gt; harmonization of the results, too, resulting in a far more valuable research document:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I can usually compare the basic values, such as concert visiting likelihood in the past – for example, I surveyed Hungary and Slovakia first in 2015, but immediately could compare with 2013 and 2007 data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/gif/concert_hu_animation.gif&#34; alt=&#34;Harmonized concert visiting questions over time&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;I get international benchmarks for free, for example, German, Czech, French data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/img/cee_concert_demography_15x10.jpg&#34; alt=&#34;Harmonized concert visiting questions accross countries&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Using the hierarchical nature of CAP surveys, I can make reasonable estimates of details that I survey only in one or few countries, such as visiting jazz concerts, and not concert only; or copying non-licensed music to devices.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Of course, there is no free lunch here.  I can access millions of euros values of survey data, but nobody will make prepare it for my use. These surveys were processed for different users and different uses and joining them with my data is a very difficult task that I had been doing better and better in the past 5 years. To make this work as error-free as possible, I will publish the critical elements of the code as open source software on CRAN soon - the github release is an early version of this.&lt;/p&gt;
+&lt;p&gt;Much of the current momentum is due to a new contributor to these packages, 
+&lt;a href=&#34;https://martakolczynska.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marta Kołczyńska&lt;/a&gt;, who is an excellent R programmer and a bright academic in international survey harmonization and reproducible research.&lt;/p&gt;
+&lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The website of the  
+&lt;a href=&#34;http://retroharmonize.satellitereport.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; package&lt;/li&gt;
+&lt;li&gt;The website of the 
+&lt;a href=&#34;http://eurobarometer.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurobarometer&lt;/a&gt; package&lt;/li&gt;
+&lt;li&gt;The website of the 
+&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; package&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First CEEMID Regional Open Data Release</title>
+      <link>/post/2020-04-16-regional-opendata-release/</link>
+      <pubDate>Thu, 16 Apr 2020 17:00:00 +0200</pubDate>
+      <guid>/post/2020-04-16-regional-opendata-release/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Internet use: participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.) [percentage of individuals]&lt;/em&gt; shows the development of social media use in the past 10 years in very high detail.  Social media is one of the most important ways to communicate with fans and find audiences for gigs, performances and to share new releases.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/dataanimation/internet_use_social_networks.gif&#34; alt=&#34;Social media use 2011-2019&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The chosen dataset is highlighting several new priorities of CEEMID.  This indicator, which is based on a 
+&lt;a href=&#34;https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_r_iuse_i&amp;amp;lang=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eurostat statistical product&lt;/a&gt;, has a much higher data quality than the Eurostat release, it is easier to use, and goes beyond the detail of national statistics.  It contains data on 411 territories in Europe, including countries, provinces and smaller regions, even some metropolitan areas.&lt;/p&gt;
+&lt;p&gt;The dataset is available on the European open research data repository, 
+&lt;a href=&#34;https://zenodo.org/record/3754574#.XpimX8gzbIU&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zenodo&lt;/a&gt;. It will be updated annually. 
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.3754574&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://zenodo.org/badge/DOI/10.5281/zenodo.3754574.svg&#34; alt=&#34;DOI&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The processing information is available in the dataset.  First, we have used our open source software to correct the regional boundary changes during the decade (see 
+&lt;a href=&#34;/post/2020-02-13-regional_eurostat/&#34;&gt;Programatic Approach To Work With European Regional Data Panels&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;When data was missing in the end of the dataset, we used the last observation carry forward, when in the beginning, the next observation carry backwards data.  Gaps in the data were interpolated using linear interpolation. Whenever data was available on a larger (provincial level), we imputed it to the smaller regional units.&lt;/p&gt;
+&lt;p&gt;The data contains standard national / regional references according the European NUTS2013 standard for backwards compatibility. Further documentation will be available on our methodology on the 
+&lt;a href=&#34;https://documentation.ceemid.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation.ceemid.eu&lt;/a&gt; wiki website.&lt;/p&gt;
+&lt;p&gt;At last, the data was put into a table that complies with the 
+&lt;a href=&#34;https://www.jstatsoft.org/article/view/v059i10&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidy data&lt;/a&gt; principles for easier processing on computers and immediate use in spreadsheet applications.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Use this in your article? Further research? Collaboration? Let&amp;rsquo;s get in touch on 
+&lt;a href=&#34;https://www.linkedin.com/in/antaldaniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LinkedIn&lt;/a&gt;, 
+&lt;a href=&#34;https://twitter.com/antaldaniel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;, or via 
+&lt;a href=&#34;https://danielantal.eu/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;danielantal.eu&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2011.jpg&#34; data-caption=&#34;Internet use: participating in social networks (2011)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2011_hua485aaf22d1f04af04808580e8565870_238711_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2015.jpg&#34; data-caption=&#34;Internet use: participating in social networks (2015)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2015_hua485aaf22d1f04af04808580e8565870_246037_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2019.jpg&#34; data-caption=&#34;Internet use: participating in social networks (2019)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/ceemid_regional_social_media_use_2019_hua485aaf22d1f04af04808580e8565870_250355_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2011.jpg&#34; data-caption=&#34;CEEMID metadata summary (2011)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2011_hua485aaf22d1f04af04808580e8565870_247818_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2015.jpg&#34; data-caption=&#34;CEEMID metadata summary (2015)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2015_hua485aaf22d1f04af04808580e8565870_247520_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+      
+        
+      
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2019.jpg&#34; data-caption=&#34;CEEMID metadata summary (2019)&#34;&gt;
+  &lt;img data-src=&#34;/post/2020-04-16-regional-opendata-release/gallery/metadata_ceemid_regional_social_media_use_2019_hua485aaf22d1f04af04808580e8565870_243997_0x190_resize_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;263&#34; height=&#34;190&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automated Reporting</title>
+      <link>/project/reporting/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0100</pubDate>
+      <guid>/project/reporting/</guid>
+      <description>&lt;p&gt;Our &lt;strong&gt;reproducible reports&lt;/strong&gt; are automated, self-refreshing documents, that contain data pipelines to the original data sources, the analytical code and the narrative assessment in a single file.  These reports are saving potentally thousands of error-prone human working during the compilation of very complex technical documentations, such as regulatory filings or complex research documentations.&lt;/p&gt;
+&lt;p&gt;Because they are retrieving the latest available data from the Client&amp;rsquo;s internal systems and from external data sources, they can be re-freshed daily, weekly, monthly or annually. The program is refreshing the data visualizatoin, the data tables, the data citations and bibliography, and they re-create the statistical and descriptive technical annexes at every compilation.&lt;/p&gt;
+&lt;h2 id=&#34;advantages-of-reproducible-reporting&#34;&gt;Advantages of reproducible reporting&lt;/h2&gt;
+&lt;p&gt;A reproducible report allows independent assessment and duplication of the programmatic results. This is a guarantee of high quality and security.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reviewability&lt;/strong&gt; means that our application’s results are can be assessed and judged by our user’s experts, or experts they trust.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reproducibility&lt;/strong&gt; means that we are providing data products and tools that allow the exact duplication of our results during assessments.  This makes sure that all logical steps can be verified. Reproducibility ensures that there is no lock-in to our applications. You can always chose a different data and software vendor, or compare our results with them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are creating applications that are confirmable and auditable. These are usually required by the ethical guidelines and professional standards of our users.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Confirmability&lt;/strong&gt; means that using our applications findings leads to the same professional results as other available software and information. Our data products use the open-source statistical programming language R. We provide details about our algorithms and methodology to confirm our results in SPSS or Stata or sometimes even in Excel.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Auditability&lt;/strong&gt; means that our data and software is archived in a way that external auditors can later review, reproduce and confirm our findings.  This is a &lt;em&gt;stricter form of data retention&lt;/em&gt; that most organizations apply, because we do not only archive results step-by-step but all computational steps – as if your colleagues would not only save every step in Excel but also their keystrokes. While auditability is a requirement in accounting, but we are extending this approach to all the quantiative work of a professional organization in an advisory or consulting capacity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Because our data applications are confirmable and auditable, they are the best suited to meet the internal or external regulatory compliance of organizations, for example, reporting to external regulators or supervisory boards.&lt;/p&gt;
+&lt;h2 id=&#34;internationalization-and-localization&#34;&gt;Internationalization And Localization&lt;/h2&gt;
+&lt;p&gt;Because the tables, visualizations, citations and repeating technical documentations are created programatically, they are ideally suited for multi-language environments. Our reproducible research reports are capable of creating a master (English or generic) report and the skeletons of translations with translated and well-placed, translated illustrations.&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;Our 
+&lt;a href=&#34;https://danielantal.eu/publication/ceereport_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Central &amp;amp; Eastern European Music Industry Report 2020&lt;/a&gt; is based on our data collection in 12 countries. Every visualization and data cited in the report is programatically created, and can be refreshed or translated automatically. It was 
+&lt;a href=&#34;https://danielantal.eu/post/2020-01-30-ceereport/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presented&lt;/a&gt; as a good case-study on national and comparative evidence-based policymaking in the cultural and creative sector on the CCS Ecosystems: FLIPPING THE ODDS Conference – a two-day high-level stakeholder event jointly organized by Geothe-Institute and the DG Education and Culture of the European Commission with the Creative FLIP project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploiting Open Data</title>
+      <link>/project/open_data/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0100</pubDate>
+      <guid>/project/open_data/</guid>
+      <description>&lt;p&gt;In Europe, municipalities, state authorities, governments, and the EU itself are creating vast data assets to serve various public needs.  Since 2003 the EU and its members states have theoretically opened these vast data resources for the re-use of the market sector when there are no privacy or national security concerns present.&lt;/p&gt;
+&lt;p&gt;Right after the opening of these data assets, it was estimated that the value of re-used public sector data, for example geographical, company registry, court, transport infrastructure data is around 25-47 billion euros. In the last 15 years, there have been signficant new investments into data assets, and futher innovation on using data.&lt;/p&gt;
+&lt;p&gt;In many cases, the re-usable public data offers a consistent and cheap alternative to private data collection, for example, pan-European surveying.&lt;/p&gt;
+&lt;h2 id=&#34;advantages-of-psi&#34;&gt;Advantages of PSI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There are vast data assets available for marginal cost, or for free, in size and value that could not be profitably financed by the private sector.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Re-use of taxpayer funded research increases the value for tax money, and avoids unnecessary duplication of data investments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It is not possible to collect past data in the present. Public sources, however, often contain hidden data going back for 10-20 years or even more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;difficulties-of-psi&#34;&gt;Difficulties of PSI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Re-usable data was created for a different purpose. While the data may be of high quality, it is likely not to be processed in the form the re-user wants to see it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The data is often not documented, or not documented for the purpose of re-use.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The data is often difficult to find.  It is technically re-usable, but even its existence is unknown for most business users.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The direct data costs of PSI are usually low - users only have to pay marginal costs, or sometimes they are not charged for a fair use of the data. However, the data processing costs are significant, because the data was not prepared for the business users needs.  The data processing requires a special understanding of statistical standards and public data. This is one of our specialities - besides having a very detailed &amp;lsquo;treasure map&amp;rsquo; of European PSI.  We are creating thousands of high-quality, pan-European business and policy indicators from open data sources.&lt;/p&gt;
+&lt;h2 id=&#34;legal-background&#34;&gt;Legal Background&lt;/h2&gt;
+&lt;p&gt;In the EU, open data is governed by the 
+&lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&amp;amp;uri=CELEX:32019L1024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Directive on open data and the re-use of public sector information - in short: Open Data Directive (EU) 2019/1024&lt;/a&gt;. It entered into force on 16 July 2019. It replaces the 
+&lt;a href=&#34;https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Public Sector Information Directive&lt;/a&gt;, also known as the ‘PSI Directive’ which dated from 2003 and was subsequently amended in 2013. The founder of CEEMID, Daniel Antal has been involved in Open Data and 
+&lt;a href=&#34;https://danielantal.eu/publication/hungary_psi_2009/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PSI since 2008&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
