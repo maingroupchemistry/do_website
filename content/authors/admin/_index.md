@@ -60,11 +60,13 @@ An observatory is a location used for observing terrestrial or celestial events.
 
 ## Do you want to help our start?
 
-- Put as in contact with people who love to program in R and interested in automating business and social science research and primary data collection such as surveying.
+We would like to enter into the Validation Lab of one of the best artificial intelligence incubators in early September. Talented team members, letters of intents and assignments from organizations will give a lot of credibility to our start [Meet our team »](http://dataobservatory.eu/team/).
+
+- Put as in contact with people who love to write code in R and interested in automating business and social science research and primary data collection such as surveying. [Check out what sort of code we create »](http://dataobservatory.eu/#featured)
 
 - Introduce us to people who need data and information to make better informed decision and analysis in music, film, book publishing, photography services or socially responsible finance.
 
-- Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations. 
+- Share contacts of data journalists who would like to develop stories from big survey programs like Eurobarometer, Afrobarometer and Lationbarometro, or base their storytelling on data and its visualizations. [See our survey harmonization examples »](http://retroharmonize.satellitereport.com/)
 
 You can share this in with our [start-up post»](http://dataobservatory.eu/post/2020-08-24-start-up/).
 
