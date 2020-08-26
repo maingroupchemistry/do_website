@@ -1,9 +1,9 @@
 +++
 # Project title.
-title = "Music Observatory"
+title = "Surveys"
 
 # Date this page was created.
-date = 2019-07-30T12:00:00
+date = 2019-08-26T08:00:00
 
 # Project summary to display on homepage.
 summary = "Collaborative reproducible research in the music industry"
@@ -43,35 +43,70 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-An **observatory** is a location used for observing terrestrial or celestial events. The European Commission and the Council of Europe are supporting numerous data observatories to support research and development and evidence-based policymaking. (See: Observatories.)
-We are creating automated observatories following the best practices of reproducible research.
+The most important technical guideline on cultural statistics is the _Final Report of the Woking Group European Statistical System Network on Culture_ (in short: ESSnet-Culture) [@frank_guy_essnet-culture_2012].
 
-Satellite Report grew out of a such an observatory, [CEEMID](https://ceemid.eu/). CEEMID is aiming to transfer thousands of indicators and a verifiable, open-source software that creates them to the European Music Observatory to give Europe-wide acces timely, reliable, actionable statistics and indicators for the music industry, policymakers and music professionals. (Read more about our [data coverage](https://documentation.ceemid.eu/index.php?title=Main_Page#Data_Coverage))
+ESSnet-Culture gave a thorough overview of cultural data sources, guidelines on standardizing data, and a technical definition of the domain, including an exact mapping of cultural and creative activities and occupations to statistical nomenclatures.
 
-Satellite Report is aiming to support this transition, and at the same time, create new data products for other creative industries. See [our call for partners](http://demoobservatory.ceemid.eu/).
+## ICET model {#icet}
 
-## Open source, open data, open collaboration
+Cultural participation extends beyond the market-oriented forms of "cultural consumption" and include non-market forms, such as private copying or liturgical events.
 
-We believe that the European Music Observatory must rely on open-source statistical software written in the R statistical language like CEEMID. (Read [why](https://documentation.ceemid.eu/index.php?title=Open-source_software).)
+The ESSnet-Culture working group endorsed the ICET model of quantifying cultural participation.   The aim of the ICET model is to create representative surveys, but it is a very good framework to join survey data with other data sources.  For example, the music industry and the audiovisual sector usually has extensive transaction data on most market-oriented activities.
 
-In the EU, open data is governed by the [Directive on open data and the re-use of public sector information - in short: Open Data Directive (EU) 2019 / 1024](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1561563110433&uri=CELEX:32019L1024). It entered into force on 16 July 2019. It replaces the [Public Sector Information Directive](https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098), also known as the ‘PSI Directive’ which dated from 2003 and was subsequently amended in 2013. The founder of CEEMID, Daniel Antal has been involved in Open Data and PSI since 2008.
+* _Information_: to seek, collect and spread information on culture;
 
-CEEMID uses the open source [statistical programming language R](https://documentation.ceemid.eu/index.php?title=R_(programming_language)), and various open source R programs.  CEEMID also releases some of its customary program code developed to create its indicators (See [open data](https://danielantal.eu/project/opendata/) on this site). This allows an open collaboration with statisticians working in national statistics authorities and in independent research institutions in the EU and globally.  For example, this allowed us to compare test results on calculating economic impact indicators for the creative industries and other industries with the [UK statistical office](http://iotables.ceemid.eu/articles/united_kingdom_2010.html).
+* _Communication and community_: to interact with others on cultural issues and to participate in cultural networks;
 
-The use of open source software and the open source R statistical language allows a continuous peer-review of data ingestion, processing, corrections and indicator creation by statisticians, data scientists and academics.  Statistical products of national statistical offices, sometimes Eurostat itself, not to mention data providers that are not part of the system of national statistical offices, such as the European Audiovisual Observatory, are plagued with data errors that are corrected and amended relatively slowly.
+* _Enjoyment and expression_: to enjoy exhibitions, art performances and other forms of cultural expression, to practice the arts for leisure, and to create online content;
 
-## Data integration instead of centralisation
+* _Transaction_: to buy art and to buy or reserve tickets for shows. 
 
-From the originally envisioned, centralized, permission-based data structure, due to practical considerations, CEEMID switched to a more flexible, decentralized approach. This approach is based on continuous [data integration](https://documentation.ceemid.eu/index.php?title=Main_Page#Data_Integration), which requires permissions to use business confidential information only in use. This allowed a rapid extension of CEEMID to the whole of Europe and go even beyond.  As a result of continous data integration it already includes hundreds of indicators foreseen in all pillars of the planned European Music Observatory. 
+The generic questionnaire was developed by Jos de Haan and Andries van den Broek at the Netherlands Institute for Social Research, originally for extending cultural participation surveys to digital forms of culture [@de_haan_virtuele_2008; @de_haan_nowadays_2012]. This methodology was endorsed by ESSnet-Culture, and a rather detailed guideline can be found in the report of the _Task Force on Cultural Practices And Social Aspects Of Culture_, in the ESSNet-Culture technical report (in general: pp. 236-242, survey methodology and harmonization pp. 242-255, recommendations: pp. 273-274; with examples on how to use the question hierarchy on pp. 397-417.)
 
-While CEEMID is aware of and uses the metadata of CISAC's, IFPI's, EAO's, and other industry sources' data, it does not contain this data, only when a user with permission for the use of these industry sources requires the integration of such data with other CEEMID data, or user-specific data.  While this approach makes sharing results more cumbersome, it provided a path to increase the number of useful indicators from a few dozens to around a thousand. Furthermore, it exponentially increases the value of CISAC's, IFPI's or EAO's data, especially when designing better royalty rates, or creating economic evidence for litigation. Take a look at a simple, non-confidential example [blog post](https://danielantal.eu/post/cee_mini_17/).
+## Target Population
 
-We will integrate data into open data products and music industry intelligence apps from the following sources:
+* When the target population is representative members of the general public, such as in the case of audience surveys, we use [CAP](#cap) surveys.
+* When the target population is a professional or microenterprise group, such as performing artists or record labels, we use our [Professional group surveys](#professional).
 
-* Nationally representative [CAP surveys](https://danielantal.eu/usecase/cap/) of music users and film viewers.
+## CAP surveys {#cap}
 
-* Anonymous [CEEMID Music Professional Surveys](https://danielantal.eu/usecase/musicians/) and *CEEMID Audiovisual Professional Surveys* about their work, incomes and costs. See example [blog post](https://danielantal.eu/post/career_path/).
+ESSnet-Culture has reviewed several pan-European CAP manifestations, and based on the recommendations, further CAP surveys were carried out in the European Union.  
 
-* Big data sources from various geolocational applications about events and location visits [small video](https://www.youtube.com/watch?v=3lW8bhQ2fbY).
+* European CAP 2001: Europeans' Participation in Cultural Activities (2001)
 
-* Automatic data retrieval from open data sources, including statistical data and EU-funded research. See example [blog post](https://danielantal.eu/post/how_many_ever_pay/)
+* CEE CAP 2003:  Candidate Countries Eurobarometer 2003.1 New Europeans and Culture, all later EU member states of the EU27, except for Croatia, but including Turkey.
+
+* European CAP 2006:  Within the EU-SILC Module 2006 On Social Participation.
+
+* European CAP 2007:  Includes the EU27 + United Kingdom but not Croatia, Romania and Bulgaria, conducted within Eurobarometer European Cultural Values (2007)
+
+* European CAP 2013: Includes the EU27 + Croatia (only few weeks before the country's accession.)
+
+* European CAP 2015: Within the EU-SILC Module 2015 On Social/Cultural Participation And Material Deprivation.
+
+Based on these guidelines and examples, we have carried out several in-depth music and audiovisual domain oriented CAP surveys:
+
+* Hungary CAP 2014: a large, but non-representative online sample to test the methodology
+
+* Hungary CAP 2015: 
+
+* Slovakia CAP 2015:
+
+* Croatia CAP 2017:
+
+* Hungary CAP 2017:
+
+* Hungary CAP 2018:
+
+* Hungary CAP 2019:
+
+* Slovakia CAP 2020:
+
+## Professional Group Surveys {#professional}
+
+
+
+
+
+
+
