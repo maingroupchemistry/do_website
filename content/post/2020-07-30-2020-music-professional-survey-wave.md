@@ -1,6 +1,6 @@
 ---
 title: 2020 Music Professionals Survey Wave
-author: 'error: invalid key: Antal/.gitconfig'
+author: Daniel Antal
 date: '2020-07-30'
 slug: 2020-music-professional-survey-wave
 categories: []
@@ -37,22 +37,6 @@ We are asking music organizations to send out our questionnaires to their member
 
 ## Which countries are covered this year?
 
-* Argentina
-* Belgium
-* Brazil
-* Canada
-* Chile
-* Estonia
-* Germany
-* France
-* Hungary
-* Ireland
-* Italy
-* the Netherlands
-* Portugal
-* Slovakia
-* Spain
-* United Kingdom
-* United States of America
-
 Previous year we covered emerging Europe Austria, Czechia, Croatia, Hungary, Lithuania, Serbia, Slovakia, Slovenia. 
+
+This year we are aiming to cover some of our regularly surveyed countries, and a number of new, mainly developed markets. The countries will be announced shortly.
