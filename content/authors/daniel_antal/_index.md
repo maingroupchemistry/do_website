@@ -11,11 +11,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Founder
+role: Co-founder
 
 # Organizations/Affiliations
 organizations:
-- name: Visegrad Investments - CEEMID
+- name: Reprex - CEEMID - Visegrad Investments
   url: "https//danielantal.eu"
 
 # Short bio (displayed in user profile at end of posts)
