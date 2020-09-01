@@ -36,11 +36,11 @@ url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = "http://eurobarometer.danielantal.eu/"
+url_project = "https://eurobarometer.dataobservatory.eu/"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://github.com/antaldaniel/eurobarometer"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -62,4 +62,4 @@ math = false
   focal_point = "TopLeft"
 +++
 
-Please review the [workflow](http://eurobarometer.danielantal.eu/articles/workflow.html) here.
+Please review the [workflow](https://eurobarometer.dataobservatory.eu/articles/workflow.html) here.

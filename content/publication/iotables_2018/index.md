@@ -36,11 +36,11 @@ url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = "http://rOpenGov/iotables/"
+url_project = "https://iotables.dataobservatory.eu/"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "http://rOpenGov/iotables/"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -62,4 +62,4 @@ math = false
   focal_point = "TopLeft"
 +++
 
-[iotables](http://iotables.ceemid.eu/) processes all the symmetric input-output tables of the EU member states, and calculates direct, indirect and induced effects, multipliers for GVA, employment, taxation. These are important inputs into policy evaluation, business forecasting, or granting/development indicator design. iotables is used by about 800 experts around the world. 
+[iotables](https://iotables.dataobservatory.eu/) processes all the symmetric input-output tables of the EU member states, and calculates direct, indirect and induced effects, multipliers for GVA, employment, taxation. These are important inputs into policy evaluation, business forecasting, or granting/development indicator design. iotables is used by about 800 experts around the world. 

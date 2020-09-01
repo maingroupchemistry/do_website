@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Creative Observatories</title>
+    <title>Tags | Creative Data Observatories</title>
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 24 Aug 2020 10:15:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 25 Aug 2020 16:00:00 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>eurobarometer</title>
+      <link>/tag/eurobarometer/</link>
+      <pubDate>Tue, 25 Aug 2020 16:00:00 +0200</pubDate>
+      <guid>/tag/eurobarometer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r-bloggers</title>
+      <link>/tag/r-bloggers/</link>
+      <pubDate>Tue, 25 Aug 2020 16:00:00 +0200</pubDate>
+      <guid>/tag/r-bloggers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surveys</title>
+      <link>/tag/surveys/</link>
+      <pubDate>Tue, 25 Aug 2020 16:00:00 +0200</pubDate>
+      <guid>/tag/surveys/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>open-data</title>
@@ -57,30 +81,6 @@
       <link>/tag/harmonization/</link>
       <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
       <guid>/tag/harmonization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>surveys</title>
-      <link>/tag/surveys/</link>
-      <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
-      <guid>/tag/surveys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>eurobarometer</title>
-      <link>/tag/eurobarometer/</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
-      <guid>/tag/eurobarometer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r-bloggers</title>
-      <link>/tag/r-bloggers/</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
-      <guid>/tag/r-bloggers/</guid>
       <description></description>
     </item>
     
@@ -287,7 +287,7 @@
     <item>
       <title>observatory</title>
       <link>/tag/observatory/</link>
-      <pubDate>Tue, 30 Jul 2019 12:00:00 +0200</pubDate>
+      <pubDate>Mon, 26 Aug 2019 08:00:00 +0200</pubDate>
       <guid>/tag/observatory/</guid>
       <description></description>
     </item>
@@ -295,7 +295,7 @@
     <item>
       <title>reprodubile-research</title>
       <link>/tag/reprodubile-research/</link>
-      <pubDate>Tue, 30 Jul 2019 12:00:00 +0200</pubDate>
+      <pubDate>Mon, 26 Aug 2019 08:00:00 +0200</pubDate>
       <guid>/tag/reprodubile-research/</guid>
       <description></description>
     </item>

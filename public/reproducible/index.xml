@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reproducible Research | Creative Observatories</title>
+    <title>Reproducible Research | Creative Data Observatories</title>
     <link>/reproducible/</link>
       <atom:link href="/reproducible/index.xml" rel="self" type="application/rss+xml" />
     <description>Reproducible Research</description>
@@ -144,6 +144,28 @@
     </item>
     
     <item>
+      <title>Observatories</title>
+      <link>/reproducible/observatories/</link>
+      <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/observatories/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A &lt;em&gt;private observatory&lt;/em&gt; is a data integration system, which automatically collects external information, processes it and professionally joins it with internal data resources.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A &lt;em&gt;collaborative observatory&lt;/em&gt; is a data integration system that has a map to collaborating institutions’s data resources, and is able to exploit their synergies by automatically combining their data, triggered by an authorization of all involved parties.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A &lt;em&gt;public observatory&lt;/em&gt; is a collaborative observatory that intends to make at least some of its data assets available as open data. 
+ode chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our observatories fulfil important functions in data collection, processing, integration, and automated modelling. We provide these services as custom software as service products in the form of 
+&lt;a href=&#34;reproducible/apps/&#34;&gt;data applications&lt;/a&gt;.  To design a good observatory that fulfils your business, policy, scientific or journalistic needs, we provide data curating as a consulting service.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Apps</title>
       <link>/reproducible/apps/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
@@ -177,11 +199,68 @@
     </item>
     
     <item>
+      <title>Existing Observatories</title>
+      <link>/reproducible/otherobservatories/</link>
+      <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/otherobservatories/</guid>
+      <description>&lt;h2 id=&#34;existing-observatories---independent-from-us&#34;&gt;Existing observatories - independent from us&lt;/h2&gt;
+&lt;p&gt;Observatories are created to permanently collect data, information, and createa  knowledge-base for research and development, science, evidence-based policymaking, usually by Consortia of business, NGO, scientific and public bodies.&lt;/p&gt;
+&lt;p&gt;We are aiming to create similar observatories, but we are in no way affiliated or connected to the following, existing observatories that we see as role models. Our mission is to serve similar observatories with research automation, making the observatory&amp;rsquo;s services less costly, more timely with higher level of quality control.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://ec.europa.eu/digital-single-market/en/european-digital-media-observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Digital Media Observatory&lt;/a&gt; was launched on 1 June 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.eafo.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Alternative Fuels Observatory&lt;/a&gt; is an European Commission funded initiative which provides open and free information, amongst others to support Member States with the implementation of EU Directive 2014/94 on the deployment of alternative fuels infrastructure. The EAFO is maintained by the 
+&lt;a href=&#34;https://www.eafo.eu/knowledge-center/consortium&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EAFO Consortium&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.energypoverty.eu/about/about-observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EU Energy Poverty Observatory&lt;/a&gt; (EPOV) is an initiative by the European Commission to help Member States in their efforts to combat energy poverty. It exists to improve the measuring, monitoring and sharing of knowledge and best practice on energy poverty. The EU Energy Poverty Observatory (EPOV) has been developed by a consortium of 13 organisations, including universities, think tanks, and the business sector.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.clustercollaboration.eu/eu-initiatives/european-cluster-observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Observatory for Clusters and Industrial Change&lt;/a&gt; to help Europe&amp;rsquo;s regions and countries in designing better and more evidence-based cluster policies and initiatives. This platform is funded by the EU programme for the Competitiveness of Enterprises and SMEs (COSME).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;http://www.euro.who.int/en/about-us/partners/observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Observatory on Health Systems and Policies&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.feantsaresearch.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Observatory on Homelessness&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://euipo.europa.eu/ohimportal/en/web/observatory/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Observatory on Infringements of Intellectual Property&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;http://www.clusterobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cluster Observatory&lt;/a&gt; of the Center for Strategy and Competitiveness at the Stockholm School of Economics, which started out originally as the European Cluster Observatory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://www.obs.coe.int/en/web/observatoire/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;European Audiovisual Observatory&lt;/a&gt; of the Council of Europe works in a more complicated environment, as it is created by EU member states and non-member states before the EU was born with the Maastricht Treaty.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;http://observatory.culturepartnership.eu/en/page/observatory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eastern Partnership Cultural Observatory&lt;/a&gt; has an out of EU reach.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Harmonized Surveys</title>
       <link>/reproducible/surveys/</link>
       <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
       <guid>/reproducible/surveys/</guid>
       <description>&lt;p&gt;We are designing survey questionnaires and create data integration code for harmonized surveys. Harmonized surveys are asking the very same questions, and they can be integrated. Our surveys planned for 2020 in Slovakia for example have comparative data from earlier years in Slovakia, but also from its neighbouring countries and Germany or France.&lt;/p&gt;
+&lt;p&gt;The core of our survey harmonization software is open source and is under peer-review, it can be found on 
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize.dataobservatory.eu&lt;/a&gt; and 
+&lt;a href=&#34;https://eurobarometer.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurobarometer.dataobservatory.eu/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The very technical terms of &lt;em&gt;ex ante&lt;/em&gt; , &lt;em&gt;ex post&lt;/em&gt; or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;We can usually compare the basic values, such as concert visiting likelihood in the past – for example, I surveyed Hungary and Slovakia first in 2015, but immediately could compare with 2013 and 2007 data.&lt;/li&gt;
@@ -251,6 +330,7 @@
       <guid>/reproducible/journalism/</guid>
       <description>&lt;p&gt;For data journalism, two cornerstones of reproducible research, namely reviewability by editors and confirmability by other sources are essential requirements.  Our data integration system can produce thousands of reviewable and confirmable facts.&lt;/p&gt;
 &lt;p&gt;Open data means that there is too much data and information available as business, scientific or journalistic, and we believe that our data sources should have scientific and journalistic corroboration for business uses, too.&lt;/p&gt;
+&lt;p&gt;We started a discussion with a premier data journalism team to review how our automated data products could fit into their journalistic production workflow.&lt;/p&gt;
 </description>
     </item>
     
@@ -299,6 +379,43 @@
 &lt;a href=&#34;http://ropengov.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rOpenGov&lt;/a&gt; collaboration.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Demo Observatories</title>
+      <link>/reproducible/demoobservatories/</link>
+      <pubDate>Fri, 10 Jul 2020 10:00:00 +0200</pubDate>
+      <guid>/reproducible/demoobservatories/</guid>
+      <description>&lt;h2 id=&#34;our-demo-observatories&#34;&gt;Our demo observatories&lt;/h2&gt;
+&lt;p&gt;Our apps can integrate your internal financial or transactional data with thousands of external indicators from official statistics to satellite sensory data.  We make sure that your organization always has valid KPIs that are aware of the changes of your working environment.&lt;/p&gt;
+&lt;p&gt;Our work is historically based on CEEMID, that integrated the data of about 100 music organizations with various other data sources, and created about 2000 statistical indicators for better pricing, advocating for better economic and tax policies, better granting or better marketing of music. CEEMID was constructed from the ad-hoc contributions of users, and was never meant to be public.&lt;/p&gt;
+&lt;p&gt;we are currently bringing out to the ligth in full transparency, with open code and open data several demo observatories for a permanent observation of social and economic data in an automated collection, processing, validation, documentation and publishing workflow. Most of this know-how was developed in CEEMID, but it is not specific to the music industry. We present them as a proof of concept for the best practices of our  research automation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A demonstration and proof of concept that a modern, European data observatory can be in large part automated, and adhere to the highest standards of statistical disclosure, reproducible research and open policy analysis (see \ref(opa) 
+&lt;a href=&#34;#opa&#34;&gt;Evidence-based, Open Policy Analysis&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;musicdemoobservatoryeu&#34;&gt;music.demoobservatory.eu&lt;/h3&gt;
+&lt;p&gt;Currently the website is updated about every day. Each time a refreshment is made, the entire website in  
+&lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;html&lt;/a&gt;, the downloadable data catalogue in 
+&lt;a href=&#34;https://music.dataobservatory.eu/music_observatory.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdf&lt;/a&gt; and 
+&lt;a href=&#34;https://music.dataobservatory.eu/music_observatory.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;epub ebook&lt;/a&gt; is re-created with new data tables, latest citation information and visualizations.  Unfortunately, during these daily updates the 
+&lt;a href=&#34;https://music.dataobservatory.eu/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;music.dataobservatory.eu&lt;/a&gt; goes blank for a few minutes &amp;mdash; we are working on a solution to avoid this inconvenience and schedule updates for late night hours (in Europe.)&lt;/p&gt;
+&lt;p&gt;We believe that a modern data observatory must improve how evidence is created and used in policy reports, and pass on the efficiency gains from increasing reproducibility and automation, therefore we pledge that the 
+&lt;a href=&#34;https://music.dataobservatory.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;music.dataobservatory.eu&lt;/a&gt; will comply with the 
+&lt;a href=&#34;https://www.bitss.org/opa/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Policy Analysis&lt;/a&gt; standards developed by the 
+&lt;a href=&#34;https://www.bitss.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berkeley Initiative for Transparency in the Social Sciences&lt;/a&gt; &amp;amp; 
+&lt;a href=&#34;https://cega.berkeley.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Effective Global Action&lt;/a&gt;. These standards are applied by the World Bank.&lt;/p&gt;
+&lt;h3 id=&#34;in-development&#34;&gt;In development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;With our partners we are developing a similar demonstration for the broader cultural, creative and copyright-based industries, which will be revealed until 10 September.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We are exploring the ideas of future data needs of several industries and policy areas with our partners.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Do you have an idea? Let us know!&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>regions | Creative Observatories</title>
+    <title>regions | Creative Data Observatories</title>
     <link>/tag/regions/</link>
       <atom:link href="/tag/regions/index.xml" rel="self" type="application/rss+xml" />
     <description>regions</description>
@@ -27,10 +27,10 @@
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;devtools&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
-&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; currently takes care of 20,000 sub-divisional boundary changes in Europe since 1999. Comparing departments of France in 2013, with 2007 vojvodinas of Poland and 2018 megyék in Hungary? This extremely errorprone work is automated, as a result, you can compare 110-260 regions for far better analysis. regions was downloaded about 600 researchers in the first month after release.&lt;/p&gt;
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; currently takes care of 20,000 sub-divisional boundary changes in Europe since 1999. Comparing departments of France in 2013, with 2007 vojvodinas of Poland and 2018 megyék in Hungary? This extremely errorprone work is automated, as a result, you can compare 110-260 regions for far better analysis. regions was downloaded about 600 researchers in the first month after release.&lt;/p&gt;
 &lt;p&gt;You can review the complete package documentation on
 
-&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions.danielantal.eu&lt;/a&gt;. If you find
+&lt;a href=&#34;https://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions.dataobservatory.eu&lt;/a&gt;. If you find
 any problems with the code, please raise an issue on
 
 &lt;a href=&#34;https://github.com/antaldaniel/regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Pull requests are

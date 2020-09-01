@@ -38,11 +38,11 @@ url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
-url_project = "regions.danielantal.eu"
+url_project = "https://regions.dataobservatory.eu/"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://github.com/rOpenGov/regions/"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -80,10 +80,10 @@ or the released version from CRAN:
 install.packages("devtools")
 ```
 
-[regions](http://regions.danielantal.eu/) currently takes care of 20,000 sub-divisional boundary changes in Europe since 1999. Comparing departments of France in 2013, with 2007 vojvodinas of Poland and 2018 megyék in Hungary? This extremely errorprone work is automated, as a result, you can compare 110-260 regions for far better analysis. regions was downloaded about 600 researchers in the first month after release.
+[regions](https://regions.dataobservatory.eu/) currently takes care of 20,000 sub-divisional boundary changes in Europe since 1999. Comparing departments of France in 2013, with 2007 vojvodinas of Poland and 2018 megyék in Hungary? This extremely errorprone work is automated, as a result, you can compare 110-260 regions for far better analysis. regions was downloaded about 600 researchers in the first month after release.
 
 You can review the complete package documentation on
-[regions.danielantal.eu](http://regions.danielantal.eu/). If you find
+[regions.dataobservatory.eu](https://regions.dataobservatory.eu/). If you find
 any problems with the code, please raise an issue on
 [Github](https://github.com/antaldaniel/regions). Pull requests are
 welcome if you agree with the [Contributor Code of

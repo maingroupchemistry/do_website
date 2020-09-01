@@ -3,13 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/0/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
-    <lastmod>2020-08-24T18:34:00+02:00</lastmod>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-24T18:34:00+02:00</lastmod>
+    <lastmod>2020-09-01T08:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/daniel-antal/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/eurobarometer/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/marta-kolczynska/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/r/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r-bloggers/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/retorharmonize_2020/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/surveys/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-25T16:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -48,11 +108,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-24T18:34:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2020-music-professional-survey-wave/</loc>
     <lastmod>2020-07-30T15:38:43+02:00</lastmod>
   </url>
@@ -73,7 +128,7 @@
   </url>
   
   <url>
-    <loc>/reproducible/reproducible/</loc>
+    <loc>/faq/reproducible/</loc>
     <lastmod>2020-07-16T10:00:00+02:00</lastmod>
   </url>
   
@@ -83,12 +138,12 @@
   </url>
   
   <url>
-    <loc>/reproducible/modeling/</loc>
+    <loc>/faq/modeling/</loc>
     <lastmod>2020-07-16T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/consulting/</loc>
+    <loc>/faq/consulting/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
@@ -98,67 +153,82 @@
   </url>
   
   <url>
-    <loc>/reproducible/cap/</loc>
+    <loc>/faq/cap/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/dashboards/</loc>
+    <loc>/faq/dashboards/</loc>
+    <lastmod>2020-09-01T08:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/faq/curation/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/curation/</loc>
+    <loc>/faq/data_maps/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/data_maps/</loc>
+    <loc>/faq/observatories/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/apps/</loc>
+    <loc>/faq/apps/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/experimental/</loc>
+    <loc>/faq/experimental/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/surveys/</loc>
+    <loc>/faq/otherobservatories/</loc>
+    <lastmod>2020-09-01T07:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/faq/surveys/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/integration/</loc>
+    <loc>/faq/integration/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/journalism/</loc>
+    <loc>/faq/journalism/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/localization/</loc>
+    <loc>/faq/localization/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/reports/</loc>
+    <loc>/faq/reports/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/psi/</loc>
+    <loc>/faq/psi/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/reproducible/</loc>
+    <loc>/faq/demoobservatories/</loc>
+    <lastmod>2020-09-01T07:10:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/faq/</loc>
     <lastmod>2020-07-10T10:00:00+02:00</lastmod>
   </url>
   
@@ -173,52 +243,7 @@
   </url>
   
   <url>
-    <loc>/tag/surveys/</loc>
-    <lastmod>2020-07-09T15:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/0/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/daniel-antal/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/eurobarometer/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/eurobarometer_2020/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/r/</loc>
-    <lastmod>2020-06-25T16:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r-bloggers/</loc>
     <lastmod>2020-06-25T16:00:00+02:00</lastmod>
   </url>
   
@@ -408,18 +433,18 @@
   </url>
   
   <url>
-    <loc>/project/music_observatory/</loc>
-    <lastmod>2019-07-30T12:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/observatory/</loc>
-    <lastmod>2019-07-30T12:00:00+02:00</lastmod>
+    <lastmod>2019-08-26T08:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/reprodubile-research/</loc>
-    <lastmod>2019-07-30T12:00:00+02:00</lastmod>
+    <lastmod>2019-08-26T08:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/music_observatory/</loc>
+    <lastmod>2019-08-26T08:00:00+02:00</lastmod>
   </url>
   
   <url>

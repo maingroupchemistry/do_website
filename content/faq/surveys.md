@@ -17,6 +17,8 @@ linktitle = "Harmonized Surveys"
 
 We are designing survey questionnaires and create data integration code for harmonized surveys. Harmonized surveys are asking the very same questions, and they can be integrated. Our surveys planned for 2020 in Slovakia for example have comparative data from earlier years in Slovakia, but also from its neighbouring countries and Germany or France.
 
+The core of our survey harmonization software is open source and is under peer-review, it can be found on [retroharmonize.dataobservatory.eu](https://retroharmonize.dataobservatory.eu/) and [eurobarometer.dataobservatory.eu/](https://eurobarometer.dataobservatory.eu/)
+
 The very technical terms of *ex ante* , *ex post* or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.
 
 1.	We can usually compare the basic values, such as concert visiting likelihood in the past – for example, I surveyed Hungary and Slovakia first in 2015, but immediately could compare with 2013 and 2007 data.

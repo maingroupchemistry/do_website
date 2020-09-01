@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | Creative Observatories</title>
+    <title>Publication_types | Creative Data Observatories</title>
     <link>/publication_types/</link>
       <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 25 Jun 2020 16:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 25 Aug 2020 16:00:00 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publication_types</title>
@@ -15,7 +15,7 @@
     <item>
       <title>0</title>
       <link>/publication-type/0/</link>
-      <pubDate>Thu, 25 Jun 2020 16:00:00 +0200</pubDate>
+      <pubDate>Tue, 25 Aug 2020 16:00:00 +0200</pubDate>
       <guid>/publication-type/0/</guid>
       <description></description>
     </item>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reka | Creative Observatories</title>
+    <title>Reka | Creative Data Observatories</title>
     <link>/author/reka/</link>
       <atom:link href="/author/reka/index.xml" rel="self" type="application/rss+xml" />
     <description>Reka</description>
