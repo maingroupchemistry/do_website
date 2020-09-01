@@ -2,7 +2,7 @@
 title = "Starting-up"
 
 date = 2020-08-24T10:15:00
-lastmod = 2020-08-24T18:34:00
+lastmod = 2020-09-01T17:34:00
 draft = false
 
 authors = ["Daniel Antal, CFA", "Réka Szentirmay"]
@@ -25,9 +25,9 @@ summary = "The big day has come: the co-founders singed off the documents at the
 
 +++
 
-The big day has come: the co-founders singed off the documents at the public notary and started the registration of a reproducible research start-up in Leiden.  We got a lot of support from our friends! Your encouragement gives us a lot of energy to accomplish our first milestones. 
+The big day has come: the co-founders singed off the documents at the public notary and started the registration of a reproducible research start-up in Leiden.  We got a lot of support from our friends! Your encouragement gives us a lot of energy to accomplish our first milestones, and to get Reprex B.V. going! 
 
-*As soon as our company is registered, we will even share its name with you:)*
+>Reprex means 'reproducible example' in data science.  When you are stuck with a problem, creating a reproducible example allows other computer scientists, statisticians, programmers or data users to solve it. In 80% of the cases, you usually find the solution while creating a generalized example.  In the 20% other cases, you can reach out for help easily. 
 
 In the coming days, we are launching demo versions of our headline products, data observatories. [music.dataobservatory.eu](https://music.dataobservatory.eu/index.html) will be a fully automated online service that every day collects, processes, cleans, and publishes scientifically valid data about European music.  Very soon after we will launch two other observatories.
 

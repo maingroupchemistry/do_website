@@ -14,7 +14,7 @@ role:
 
 # Organizations/Affiliations
 organizations:
-- name: dataobservatory.eu
+- name: Reprex B.V.
   url: "www.dataobservatory.eu"
 
 # Short bio (displayed in user profile at end of posts)
@@ -54,7 +54,7 @@ user_groups:
 
 We would like to make the benefits of highly automated, reproducible research workflows for research & development intensive micro-, small- and medium sized companies, particularly in the creative, cultural and copyright-based industries. 
 
-We would like to help small- and medium sized organizations in business, policy research, NGOs, data journalism teams to automate their data acquisition, processing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.
+In the fields of business & policy research, NGOs, data journalism teams we would like to help with automating data acquisition, processing, validation, auditing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.
 
 An observatory is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) that we will finalize until 10 September 2020.
 
