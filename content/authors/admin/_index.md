@@ -56,7 +56,9 @@ We would like to make the benefits of highly automated, reproducible research wo
 
 In the fields of business & policy research, NGOs, data journalism teams we would like to help with automating data acquisition, processing, validation, auditing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.
 
-An observatory is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) that we will finalize until 10 September 2020.
+`Reprex` means `reproducible example` in data science.  When you are stuck with a problem, creating a reproducible example allows other computer scientists, statisticians, programmers or data users to solve it. In 80% of the cases, you usually find the solution while creating a generalized example.  In the 20% other cases, you can reach out for help easily. We want to help you making your codes, data ingestions, document and presentation templates reproducible, and give help when you are stuck.
+
+An `observatory` is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) that we will finalize until 10 September 2020.
 
 ## Do you want to help our start?
 
