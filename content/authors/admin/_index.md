@@ -46,13 +46,18 @@ user_groups:
 
 ---
 
-We would like to make the benefits of highly automated, reproducible research workflows for research & development intensive micro-, small- and medium sized companies, particularly in the creative, cultural and copyright-based industries. 
+Reprex B.V. is a reproducible research company.  We believe that whenever a business or policy consulting team, a research institute, or data journalism team has already used, formatted, and analyzed data from an external source at least twice, this procedure should be automated. This makes it error-free, well documented, cheap and re-useable. Furthermore, making data collection ongoing instead being ad hoc saves data acquisition, validation and supervision costs. We would like to help medium-sized business, policy, NGO, scientific and data journalism organizations in this,  who do not have the institutional capacity to hire data scientists and engineers.
 
-In the fields of business & policy research, NGOs, data journalism teams we would like to help with automating data acquisition, processing, validation, auditing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.
+Our solutions cover automating data acquisition, processing, validation, auditing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.
 
-`Reprex` means `reproducible example` in data science.  When you are stuck with a problem, creating a reproducible example allows other computer scientists, statisticians, programmers or data users to solve it. In 80% of the cases, you usually find the solution while creating a generalized example.  In the 20% other cases, you can reach out for help easily. We want to help you making your codes, data ingestions, document and presentation templates reproducible, and give help when you are stuck.
+`Reprex` means `reproducible example` in data science.  When you are stuck with a problem, creating a reproducible example allows other computer scientists, statisticians, programmers or data users to solve it. In 80% of the cases, you usually find the solution while creating a generalized example --  which also means that you never have to repeat this task again.  If you have ever downloaded, formatted, visualized, cited a datasource twice in your work, there is a high chance that you will need it again. We would like to make this process automatic, with daily updating the data, the formatting, the visualizations and the citations. 
 
-An `observatory` is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) that we will finalize until 10 September 2020.
+In the 20% other cases, you can reach out for help easily. We want to help you making your codes, data ingestions, document and presentation templates reproducible, and give help when you are stuck. Call us!
+
+An `observatory` is a location used for observing terrestrial or celestial events. We are building highly automated data observatories in the fields of business, policy and social sciences to support research and development and evidence-based policymaking. We are following the best practices of reproducible research.
+
+The observatories give a comprehensive view of our minimal viable products. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) and 
+[ccs.dataobservatory.eu](https://ccs.dataobservatory.eu/) that we will finalize until 14 September 2020. Our Demo Music Observatory is already partially functional, and showcases all of the elements of reproducible research workflow, but some implementation (automatic doi versioning) and a full selection of the indicators is not yet finished. Out of our 2000 pan-European indicators, we will select about 50-50 in our demo observatories for daily refreshed availability.
 
 ## Do you want to help our start?
 
