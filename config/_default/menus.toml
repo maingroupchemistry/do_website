@@ -17,6 +17,13 @@
   name = "Music Observatory"
   url = "https://music.dataobservatory.eu/"
   weight = 22
+  
+  
+[[main]]
+  name = "CCS Demo Observatory"
+  url = "https://ccs.dataobservatory.eu/"
+  weight = 23
+
 
 [[main]]
   name = "Open Source"
