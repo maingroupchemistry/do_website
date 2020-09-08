@@ -1,17 +1,17 @@
 ---
 # Display name
-title: Istvan Zsoldos
-name: Istvan Zsoldos
+title: Istvan Simon
+name: Istvan Simon
 
 # Username (this should match the folder name)
 authors:
-- istvan_zsoldos
+- istvan_simon
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Senior Data Analyst
+role: reproducible business workflows
 
 # Organizations/Affiliations
 organizations:
@@ -19,21 +19,21 @@ organizations:
   url: "https://satellitereport.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reproducible social science, economics and finance.
+bio: I am interested in automating workflows on the basis of reproducible research principles from replication till audit.
 
 topics:
-- Data analytics
-- Machine Learning
-- Macroeconomics
+- Business Development
+- Workflow automation
+- Risk management
 
 education:
   courses:
-  - course: M.Sc. Business Analytics
-    institution: CEU
-    year: 2009
-  - course: M.Sc. Economics
-    institution: Cambridge University
-    year: 1995
+  - course: EMBA Candidate 
+    institution: Rotterdam School of Management
+    year: 2019-2021
+  - course: M.Sc. Actuary Science
+    institution: Corvinus University of Budapest
+    year: 2005
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,7 +45,7 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
-  link: https://github.com/Zsopi
+  link: https://github.com/asimonistvan
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,4 +61,4 @@ user_groups:
 - Team
 ---
 
-Istvan has experience in macroeconomics, corporate advisory and using data science to reveal information hidden in the data. He has experience with working for large corporations, having served as the lead economist of WSE:MOL as well as being an independent consultant. He is a contributor to the [regions package](publication/regions_2020/) that we use for the creation of sub-national indicators and data panels. 
+Istvan is an experienced technology entrepreneur venturing new digital solutions and business models. Before that he was a consulting actuary for a decade with large and smaller clients in Northern, Western and Eastern Europe. His business understanding paired with his highly quantitative background and programming skills make him able to help our business research partners turn their research and risk management workflows reproducible and more automated.
