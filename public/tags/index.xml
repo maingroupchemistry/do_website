@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 25 Aug 2020 16:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 25 Sep 2020 15:31:39 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tags</title>
@@ -13,7 +13,71 @@
     </image>
     
     <item>
-      <title>eurobarometer</title>
+      <title>open-data</title>
+      <link>/tag/open-data/</link>
+      <pubDate>Fri, 25 Sep 2020 15:31:39 +0200</pubDate>
+      <guid>/tag/open-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open-source</title>
+      <link>/tag/open-source/</link>
+      <pubDate>Fri, 25 Sep 2020 15:31:39 +0200</pubDate>
+      <guid>/tag/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducible</title>
+      <link>/tag/reproducible/</link>
+      <pubDate>Fri, 25 Sep 2020 15:31:39 +0200</pubDate>
+      <guid>/tag/reproducible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>start-up</title>
+      <link>/tag/start-up/</link>
+      <pubDate>Fri, 25 Sep 2020 15:31:39 +0200</pubDate>
+      <guid>/tag/start-up/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tag/r/</link>
+      <pubDate>Mon, 21 Sep 2020 11:31:39 +0200</pubDate>
+      <guid>/tag/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surveys</title>
+      <link>/tag/surveys/</link>
+      <pubDate>Mon, 21 Sep 2020 11:31:39 +0200</pubDate>
+      <guid>/tag/surveys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>/tag/music/</link>
+      <pubDate>Tue, 15 Sep 2020 08:00:39 +0200</pubDate>
+      <guid>/tag/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>observatory</title>
+      <link>/tag/observatory/</link>
+      <pubDate>Tue, 15 Sep 2020 08:00:39 +0200</pubDate>
+      <guid>/tag/observatory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eurobarometer</title>
       <link>/tag/eurobarometer/</link>
       <pubDate>Tue, 25 Aug 2020 16:00:00 +0200</pubDate>
       <guid>/tag/eurobarometer/</guid>
@@ -25,46 +89,6 @@
       <link>/tag/r-bloggers/</link>
       <pubDate>Tue, 25 Aug 2020 16:00:00 +0200</pubDate>
       <guid>/tag/r-bloggers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>surveys</title>
-      <link>/tag/surveys/</link>
-      <pubDate>Tue, 25 Aug 2020 16:00:00 +0200</pubDate>
-      <guid>/tag/surveys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open-data</title>
-      <link>/tag/open-data/</link>
-      <pubDate>Mon, 24 Aug 2020 10:15:00 +0200</pubDate>
-      <guid>/tag/open-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tag/r/</link>
-      <pubDate>Mon, 24 Aug 2020 10:15:00 +0200</pubDate>
-      <guid>/tag/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reproducible</title>
-      <link>/tag/reproducible/</link>
-      <pubDate>Mon, 24 Aug 2020 10:15:00 +0200</pubDate>
-      <guid>/tag/reproducible/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>/tag/music/</link>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/tag/music/</guid>
       <description></description>
     </item>
     
@@ -103,8 +127,16 @@
     <item>
       <title>CEEMID</title>
       <link>/tag/ceemid/</link>
-      <pubDate>Thu, 16 Apr 2020 17:00:00 +0200</pubDate>
+      <pubDate>Wed, 22 Apr 2020 17:00:00 +0200</pubDate>
       <guid>/tag/ceemid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regional</title>
+      <link>/tag/regional/</link>
+      <pubDate>Wed, 22 Apr 2020 17:00:00 +0200</pubDate>
+      <guid>/tag/regional/</guid>
       <description></description>
     </item>
     
@@ -181,9 +213,33 @@
     </item>
     
     <item>
+      <title>CCI</title>
+      <link>/tag/cci/</link>
+      <pubDate>Tue, 24 Mar 2020 13:30:00 +0100</pubDate>
+      <guid>/tag/cci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>documentation</title>
+      <link>/tag/documentation/</link>
+      <pubDate>Tue, 24 Mar 2020 13:30:00 +0100</pubDate>
+      <guid>/tag/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music-observatory</title>
+      <link>/tag/music-observatory/</link>
+      <pubDate>Tue, 24 Mar 2020 13:30:00 +0100</pubDate>
+      <guid>/tag/music-observatory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>team-building</title>
       <link>/tag/team-building/</link>
-      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/tag/team-building/</guid>
       <description></description>
     </item>
@@ -209,14 +265,6 @@
       <link>/tag/bulgaria/</link>
       <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
       <guid>/tag/bulgaria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CCI</title>
-      <link>/tag/cci/</link>
-      <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
-      <guid>/tag/cci/</guid>
       <description></description>
     </item>
     
@@ -281,14 +329,6 @@
       <link>/tag/slovakia/</link>
       <pubDate>Wed, 29 Jan 2020 16:00:00 +0100</pubDate>
       <guid>/tag/slovakia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>observatory</title>
-      <link>/tag/observatory/</link>
-      <pubDate>Mon, 26 Aug 2019 08:00:00 +0200</pubDate>
-      <guid>/tag/observatory/</guid>
       <description></description>
     </item>
     

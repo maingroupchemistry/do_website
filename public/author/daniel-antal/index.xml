@@ -5,12 +5,95 @@
     <link>/author/daniel-antal/</link>
       <atom:link href="/author/daniel-antal/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Antal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 25 Aug 2020 16:00:00 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 15 Sep 2020 08:00:39 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Daniel Antal</title>
       <link>/author/daniel-antal/</link>
     </image>
+    
+    <item>
+      <title>Launching Our Demo Music Observatory</title>
+      <link>/post/2020-09-15-music-observatory-launch/</link>
+      <pubDate>Tue, 15 Sep 2020 08:00:39 +0200</pubDate>
+      <guid>/post/2020-09-15-music-observatory-launch/</guid>
+      <description>&lt;p&gt;Today, on 15 September 2020, we officially launched our &lt;code&gt;minimal viable product&lt;/code&gt; as we promised to partners back in February. This was a particularly difficult period for everybody. We aspired to deliver by September in a very different environment, our hopes for commissioned work went up in flames with the pandemic, and our targeted users, musicians and music entrepreneurs, talent managers, music venues lost most of their income. The organizations helping them, granting authorities, export offices and collective management societies are overwhelmed with the problem. During these troublesome times, our team expanded, attracted great new talent, and kept working.&lt;/p&gt;
+&lt;p&gt;Our first product is the 
+&lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo Music Observatory&lt;/a&gt;, a collaborative, automated research-based 
+&lt;a href=&#34;https://dataobservatory.eu/faq/observatories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;observatory&lt;/a&gt; for the music industry, one that is particularly hard hit by the COVID19 crisis. Not only great artists, composers, technicians, managers fell victim to the virus, but musicians lost about 50–90% of their income from live music. This translates to a 100% loss for the live music technicians and managers.&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/fQJHflWPS34&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+See our 
+&lt;a href=&#34;https://dataobservatory.eu/post/2020-09-11-creating-automated-observatory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;earlier blogpost&lt;/a&gt; on what you see on the video.&lt;/p&gt;
+&lt;p&gt;The music industry was never a place for great job security. For putting up a show, you usually need a network of 10–200 artists, technicians and managers to work together as freelancers without all those social benefits that many people enjoy in other walks of life. We have been trying to figure out how to help this microenterprise and freelancer-network based industry with research for five years. Our aim is to make them competitive when they are talking with their buyers: Google, Apple, Spotify, who are really heavy-weight data and AI pros. Our better plan their tours, when they will be back on the road, to understand what sort of audiences and purchasing power waits for them in different European cities.&lt;/p&gt;
+&lt;p&gt;We are launching at a time when the music industry is crying for help.Therefore, we have decided to make our demo observatory open and unfinished. Over the last 7 years, we have built up about 2000 music and creative sector indicators to be used for business KPIs, forecasting targets, grant evaluations, royalty valuations, concert demography target group analysis and other professional uses. We would like to open up, based on your needs, about 50 well-designed indicators, and pledge to keep it daily refreshed, corrected, documented, citaable, downloadable. Also, feel free to use our most valuable source code—use it for your own purposes, even modify it, as long as you keep it open.&lt;/p&gt;
+&lt;p&gt;For our smaller partners, we follow what musicians do these days on Bandcamp: name your price. We make a pledge to our small partners: if you need reliable data to plan your next grant calls, calculate royalties, compensations, predict hit candidates, give us the job—and name your price. Post-corona, you can take for a dollar the best music from Bandcamp. You can take our research products, for a limited period, for any amount you name, as long as  it is for a good cause and serves the industry, musicians, technicians or managers. In return, we ask for your feedback. Help us validate whether we are on the right track, tell us how we can cooperate after the pandemic, in better times.&lt;/p&gt;
+&lt;p&gt;Our larger and better funded partners? We ask you to pay the price we name, because we believe that it is a well-justified, fair and competitive price, set by pricing experts.&lt;/p&gt;
+&lt;p&gt;We appreciate it if you take a look at our offering, or if you pass this blogpost on to your colleagues in the industry.  Our main target audience initially are music professional in broader Europe, but we are planning to cover all major global markets very soon, too. Feedback from the U.S., Australia, Canada, Colombia, Brazil &amp;amp; Argentina is particularly welcome as we have great plans over there!&lt;/p&gt;
+&lt;h2 id=&#34;who-we-are&#34;&gt;Who we are?&lt;/h2&gt;
+&lt;p&gt;We 
+&lt;a href=&#34;https://dataobservatory.eu/post/2020-08-24-start-up/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;started&lt;/a&gt; our operations on 1 September 2020 on the basis of 
+&lt;a href=&#34;http://documentation.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt;, a pan-European data observatory that created about 2000 music and creative industry indicators for its users. In the coming days, we are gradually opening up about 50 
+&lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;music industry&lt;/a&gt; and 50 broader creative industry indicators in a fully reproducible workflow, with daily re-freshed, re-processed, well-formatted and documented indicators for business and policy decisions.&lt;/p&gt;
+&lt;p&gt;We would like to validate this approach in one of the world&amp;rsquo;s most prestigious university-backed incubator programs, in the 
+&lt;a href=&#34;https://www.yesdelft.com/yes-programs/ai-blockchain-validation-lab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yes!Delft AI/Blockchain Validation Lab&lt;/a&gt;. We&amp;rsquo;re finalist on their selection, and all help before 23 September from our friends in the music industry is more than appreciated. If we get there, we can rely on probably the best pros in Europe to make our offering better tailored and financially sustainable.&lt;/p&gt;
+&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in touch!&lt;/h2&gt;
+&lt;p&gt;We use the very simple and extremely secure &lt;strong&gt;keybase.io&lt;/strong&gt;, a kind of mix of Whatsapp, Skype, Google Drive, One Drive and zoom. You can get in touch on that platform with us in anytime 
+&lt;a href=&#34;https://keybase.io/team/reprexcommunity&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can easily contact on LinkedIn 
+&lt;a href=&#34;https://www.linkedin.com/in/antaldaniel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel&lt;/a&gt; or 
+&lt;a href=&#34;https://www.linkedin.com/in/k%C3%A1tya-nagy-a9447730/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kátya&lt;/a&gt; and of course, we have a usually working 
+&lt;a href=&#34;https://dataobservatory.eu/#about&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;email contact form&lt;/a&gt;, too. Our email is name.surname at our main domain.&lt;/p&gt;
+&lt;h2 id=&#34;video-credits&#34;&gt;Video credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Data acquisition and processing: Daniel Antal, CFA and Marta Kołczyńska, PhD (
+&lt;a href=&#34;https://music.dataobservatory.eu/economy.html#demand&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey data&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Documentation automation: Sandor Budai&lt;/li&gt;
+&lt;li&gt;Video art: Line Matson&lt;/li&gt;
+&lt;li&gt;Music: 
+&lt;a href=&#34;https://www.youtube.com/moonmoonmoon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Moon Moon Moon&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating An Automated Data Observatory</title>
+      <link>/post/2020-09-11-creating-automated-observatory/</link>
+      <pubDate>Fri, 11 Sep 2020 16:00:39 +0200</pubDate>
+      <guid>/post/2020-09-11-creating-automated-observatory/</guid>
+      <description>&lt;p&gt;We are building data ecosystems, so called observatories, where scientific, business, policy and civic users can find factual information, data, evidence for their domain.  Our open source, open data, open collaboration approach allows to connect various open and proprietary data sources, and our reproducible research workflows allow us to automate data collection, processing, publication, documentation and presentation.&lt;/p&gt;
+&lt;p&gt;Our scripts are checking data sources, such as Eurostat&amp;rsquo;s Eurobase, Spotify&amp;rsquo;s API and other music industry sources every day for new information, and process any data corrections or new disclosure, interpolate, backcast or forecast missing values, make currency translations and unit conversions. This is shown illustrated with an 
+&lt;a href=&#34;https://dataobservatory.eu/post/2020-07-25-reproducible_ingestion/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;earlier post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/fQJHflWPS34&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For direct access to the file visit 
+&lt;a href=&#34;https://dataobservatory.eu/video/making-of-dmo.mp4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the video we show automated the creation of an observatory website with well-formatted, statistical data dissemination, a technical document in PDF and an ebook can be automated.  In our view, our technology is particularly useful technology in business and scientific researech projects, where it is important that always the most timely and correct data is being analyzed, and remains automatically documented and cited. We are ready deploy public, collaborative, or private data observatories in short time.&lt;/p&gt;
+&lt;p&gt;Data processing costs can be as high as 80% for any in-house AI deployment project. We work mainly with organization that do not have in house data science team, and acquire their data anyway from outside the organization. In their case, this rate can be as high as 95%, meaning that getting and processing the data for deploying AI can be 20x more expensive than the AI solution itself.&lt;/p&gt;
+&lt;p&gt;AI solutions require a large amount of standardized, well processed data to learn from.  We want to radically decrease the cost of data acquisition and processing for our users so that exploiting AI becomes in their reach. This is particularly important in one of our target industries, the music industries, where most of the global sales is algorithmic and AI-driven. Artists, bands, small labels, publishers, even small country national associations cannot remain competitive if they cannot participate in this technological revolution.&lt;/p&gt;
+&lt;p&gt;We 
+&lt;a href=&#34;https://dataobservatory.eu/post/2020-08-24-start-up/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;started&lt;/a&gt; our operations on 1 September 2020 on the basis of 
+&lt;a href=&#34;http://documentation.ceemid.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CEEMID&lt;/a&gt;, a pan-European data observatory that created about 2000 music and creative industry indicators for its users. In the coming days, we are gradually opening up about 50 
+&lt;a href=&#34;https://music.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;music industry&lt;/a&gt; and 50 broader creative industry indicators in a fully reproducible workflow, with daily re-freshed, re-processed, well-formatted and documented indicators for business and policy decisions.&lt;/p&gt;
+&lt;p&gt;We would like to validate this approach in one of the world&amp;rsquo;s most prestigious university-backed incubator programs, in the 
+&lt;a href=&#34;https://www.yesdelft.com/yes-programs/ai-blockchain-validation-lab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yes!Delft AI/Blockchain Validation Lab&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;video-credits&#34;&gt;Video credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Data acquisition and processing: Daniel Antal, CFA and Marta Kołczyńska, PhD (
+&lt;a href=&#34;https://music.dataobservatory.eu/economy.html#demand&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey data&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Documentation automation: Sandor Budai&lt;/li&gt;
+&lt;li&gt;Video art: Line Matson&lt;/li&gt;
+&lt;li&gt;Music: 
+&lt;a href=&#34;https://www.youtube.com/moonmoonmoon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Moon Moon Moon&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>retroharmonize R package for survey harmonization</title>
@@ -195,6 +278,22 @@ Relabelling&lt;/a&gt;&lt;/li&gt;
 &lt;a href=&#34;https://danielantal.eu/#contact&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get in touch&lt;/a&gt;. Downloaders from CRAN: 
 
 &lt;a href=&#34;https://cran.r-project.org/package=regions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regions&#34; alt=&#34;metacrandownloads&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yes!Delft Co-Lab</title>
+      <link>/post/yes-delft-co-lab/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/yes-delft-co-lab/</guid>
+      <description>
+
+
+&lt;p&gt;I have been searching around for a good incubation program for the transition of the data, software and of course people in the loose CEEMID network into a real company, and I was fascinated by the professionalism and unique viewpoint of Yes!Delft.&lt;/p&gt;
+&lt;p&gt;I view on CEEMID as a professional success that brought together dozens of small entities with the help of dozens of dedicated people from the content side. But CEEMID is financially hardly viable and needs a new business model and a new organizational approach to sustain itself and grow. CEEMID started as a cooperation project, not as an institution, but now, as the biggest music &amp;amp; creative sector data project in Europe, and most likely, in the world, it acquired enough know-how and data to institutionalize.&lt;/p&gt;
+&lt;p&gt;According to their &lt;a href=&#34;https://www.yesdelft.com/events/colab-nov15/&#34;&gt;intro&lt;/a&gt; &lt;em&gt;“Research over the past 4 decades has shown that startups that are co-founded by a team are more successful. In the Co-Lab workshop, as a single founder, founding team, or entrepreneurial minded person, you’ll get the tools and connections to find that new member of your dream team to help you reach the top!”&lt;/em&gt; (See the entire &lt;a href=&#34;https://www.yesdelft.com/wp-content/uploads/2019/09/CO-LAB-GUIDE.pdf&#34;&gt;Co-Lab Guide on their website&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;CEEMID made its biggest growth in 2019, it got in touch with dozens of new partners in a series of new countries from Austria to Armenia, but its reorganization into a startup was a debacle. Our research product was a &lt;a href=&#34;https://dataobservatory.eu/post/2020-01-30-ceereport/&#34;&gt;big international success&lt;/a&gt;, but the continuation is far from certain.&lt;/p&gt;
+&lt;p&gt;This Co-Lab gave me very important insight into why. For me, the most important lesson was that it is not the team member who has the most desired or important technical skills who may be the best co-founder to make a successful organization, but the one who will best complement myself and other co-founders. Skills can be bought on the job market once the business model is validated and the revenues are coming. To get there, you need co-founders with a strong dedication, diverse educational and cultural background, and complementing psychological traits to overcome the difficulties of the first period, where the business model is not yet validated and there is no money coming in.&lt;/p&gt;
 </description>
     </item>
     

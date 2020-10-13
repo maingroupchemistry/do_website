@@ -81,7 +81,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@satellitereport.com"
+email = "mail@dataobservatory.eu"
 #phone = "888 888 88 88"
 
 # Address
@@ -93,7 +93,7 @@ email = "test@satellitereport.com"
 #coordinates = {latitude = "37.4275", longitude = "-122.1697"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building"
+#directions = "Enter Building"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -107,7 +107,7 @@ directions = "Enter Building"
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/antaldaniel"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:antaldaniel.hu"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/antaldaniel"},
+  {icon = "keybase", icon_pack = "fab", name = "Get in touch on Keybase", link = "https://keybase.io/team/reprexcommunity"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/antaldaniel"},
   ]

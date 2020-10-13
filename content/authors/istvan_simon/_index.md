@@ -11,12 +11,12 @@ authors:
 superuser: false
 
 # Role/position
-role: reproducible business workflows
+role: Reproducible Business Workflows
 
 # Organizations/Affiliations
 organizations:
-- name: Satellite Report
-  url: "https://satellitereport.com/"
+- name: Reprex B.V.
+  url: "https://dataobservatory.eu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am interested in automating workflows on the basis of reproducible research principles from replication till audit.
@@ -61,4 +61,4 @@ user_groups:
 - Team
 ---
 
-Istvan is an experienced technology entrepreneur venturing new digital solutions and business models. Before that he was a consulting actuary for a decade with large and smaller clients in Northern, Western and Eastern Europe. His business understanding paired with his highly quantitative background and programming skills make him able to help our business research partners turn their research and risk management workflows reproducible and more automated.
+Istvan is an experienced technology entrepreneur venturing new digital solutions and business models. Before that he was a consulting actuary for a decade with large and smaller clients in Northern, Western and Eastern Europe. His business understanding paired with his highly quantitative background and programming skills make him able to help our business research partners turn their research and risk management workflows reproducible and more automated. Istvan follows the [Code of Ethics of the Hungarian Actuarial Society](http://actuary.hu/weblap2/wp-content/uploads/Etikai-Szabalyzat-20161111-clean.pdf).

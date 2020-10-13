@@ -18,19 +18,19 @@
       <pubDate>Thu, 09 Jul 2020 15:00:00 +0200</pubDate>
       <guid>/post/2020-07-10-retroharmonize/</guid>
       <description>&lt;p&gt;In the last weeks I have been releasing the early source code of two R packages, 
-&lt;a href=&#34;publication/retroharmonize_2020/&#34;&gt;retroharmonize&lt;/a&gt; for the &lt;em&gt;ex post&lt;/em&gt; harmonization infrastructure of surveys, and  
-&lt;a href=&#34;publication/eurobarometer_2020/&#34;&gt;eurobarometer&lt;/a&gt; for Eurobarometer-specific work, complemented by my earlier release of 
-&lt;a href=&#34;publication/regions_2020/&#34;&gt;regions&lt;/a&gt;, which tracks about 20,000 regional boundary changes of French departments, Polish voivodeships and Hungarian counties, and other sub-national divisions of about 32 European countries.&lt;/p&gt;
+&lt;a href=&#34;https://dataobservatory.eu/publication/retorharmonize_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; for the &lt;em&gt;ex post&lt;/em&gt; harmonization infrastructure of surveys, and  
+&lt;a href=&#34;https://dataobservatory.eu/publication/eurobarometer_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurobarometer&lt;/a&gt; for Eurobarometer-specific work, complemented by my earlier release of 
+&lt;a href=&#34;https://dataobservatory.eu/publication/regions_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt;, which tracks about 20,000 regional boundary changes of French departments, Polish voivodeships and Hungarian counties, and other sub-national divisions of about 32 European countries.&lt;/p&gt;
 &lt;p&gt;The very technical terms of &lt;em&gt;ex ante&lt;/em&gt; , &lt;em&gt;ex post&lt;/em&gt; or retrospective harmonization hide opportunities that can significantly increase the value for money in empirical market research, potentially increasing the value of a high-cost, high-value survey to multiple times of its euro value.&lt;/p&gt;
 &lt;p&gt;In my work, I have used &lt;em&gt;ex ante&lt;/em&gt; harmonized questionnaires with EU survey programs, for example, the harmonized CAP surveys to determine the characteristics of concert audiences in a country, or people who download music to their computers.  The EU has been opening up its own survey programs in a piecemeal fashion, and surveys used by the European Commission, the Parliament, or even the national statistical offices are becoming more and more available.  After harmonizing the questions, I can apply &lt;em&gt;ex post&lt;/em&gt; harmonization of the results, too, resulting in a far more valuable research document:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I can usually compare the basic values, such as concert visiting likelihood in the past – for example, I surveyed Hungary and Slovakia first in 2015, but immediately could compare with 2013 and 2007 data.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/gif/concert_hu_animation.gif&#34; alt=&#34;Harmonized concert visiting questions over time&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/dataanimation/concert_hu_animation_smooth.gif&#34; alt=&#34;Harmonized concert visiting questions over time&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;I get international benchmarks for free, for example, German, Czech, French data.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/img/cee_concert_demography_15x10.jpg&#34; alt=&#34;Harmonized concert visiting questions accross countries&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/music/cee_concert_demography_16x9.jpg&#34; alt=&#34;Harmonized concert visiting questions accross countries&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Using the hierarchical nature of CAP surveys, I can make reasonable estimates of details that I survey only in one or few countries, such as visiting jazz concerts, and not concert only; or copying non-licensed music to devices.&lt;/li&gt;
 &lt;/ol&gt;
@@ -40,11 +40,11 @@
 &lt;h2 id=&#34;related&#34;&gt;Related&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;The website of the  
-&lt;a href=&#34;http://retroharmonize.satellitereport.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; package&lt;/li&gt;
+&lt;a href=&#34;https://retroharmonize.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;retroharmonize&lt;/a&gt; package&lt;/li&gt;
 &lt;li&gt;The website of the 
-&lt;a href=&#34;http://eurobarometer.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurobarometer&lt;/a&gt; package&lt;/li&gt;
+&lt;a href=&#34;https://eurobarometer.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eurobarometer&lt;/a&gt; package&lt;/li&gt;
 &lt;li&gt;The website of the 
-&lt;a href=&#34;http://regions.danielantal.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; package&lt;/li&gt;
+&lt;a href=&#34;http://regions.dataobservatory.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;regions&lt;/a&gt; package&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

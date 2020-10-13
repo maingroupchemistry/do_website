@@ -15,8 +15,8 @@ role: Co-founder
 
 # Organizations/Affiliations
 organizations:
-- name: Reprex - CEEMID - Visegrad Investments
-  url: "https//danielantal.eu"
+- name: Reprex B.V.
+  url: "https://dataobservatory.eu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include reproducible social science, economics and finance.
@@ -67,4 +67,4 @@ user_groups:
 - Founders
 ---
 
-Daniel Antal is an experienced management consultant who applies a thoroughly professional approach based in economics, finance and data science in his practice. As a quantitatively trained financial economist, he uses a variety of sound valuation methods, corporate finance models, forecasting tools and economic impact analysis for his recommendations, and applies the standards and ethical guidelines of the Chartered Financial Analyst Institute. 
+Daniel Antal is an experienced management consultant who applies a thoroughly professional approach based in economics, finance and data science in his practice. As a quantitatively trained financial economist, he uses a variety of sound valuation methods, corporate finance models, forecasting tools and economic impact analysis for his recommendations, and applies the [standards and ethical guidelines](https://www.cfainstitute.org/en/ethics-standards/ethics/code-of-ethics-standards-of-conduct-guidance) of the Chartered Financial Analyst Institute. 

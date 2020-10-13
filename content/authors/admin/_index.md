@@ -48,6 +48,7 @@ user_groups:
 
 Reprex B.V. is a reproducible research company.  We believe that whenever a business or policy consulting team, a research institute, or data journalism team has already used, formatted, and analyzed data from an external source at least twice, this procedure should be automated. This makes it error-free, well documented, cheap and re-useable. Furthermore, making data collection ongoing instead being ad hoc saves data acquisition, validation and supervision costs. We would like to help medium-sized business, policy, NGO, scientific and data journalism organizations in this,  who do not have the institutional capacity to hire data scientists and engineers.
 
+
 Our solutions cover automating data acquisition, processing, validation, auditing, documentation, visualization and presentation workflows, so that they can focus on what humans are best: making sense of the data.
 
 `Reprex` means `reproducible example` in data science.  When you are stuck with a problem, creating a reproducible example allows other computer scientists, statisticians, programmers or data users to solve it. In 80% of the cases, you usually find the solution while creating a generalized example --  which also means that you never have to repeat this task again.  If you have ever downloaded, formatted, visualized, cited a datasource twice in your work, there is a high chance that you will need it again. We would like to make this process automatic, with daily updating the data, the formatting, the visualizations and the citations. 
@@ -58,6 +59,8 @@ An `observatory` is a location used for observing terrestrial or celestial event
 
 The observatories give a comprehensive view of our minimal viable products. We are working on the launch of three observatories, starting with [music.dataobservatory.eu](https://music.dataobservatory.eu/) and 
 [ccs.dataobservatory.eu](https://ccs.dataobservatory.eu/) that we will finalize until 14 September 2020. Our Demo Music Observatory is already partially functional, and showcases all of the elements of reproducible research workflow, but some implementation (automatic doi versioning) and a full selection of the indicators is not yet finished. Out of our 2000 pan-European indicators, we will select about 50-50 in our demo observatories for daily refreshed availability.
+
+Whenever we collaborate with members of the open source, open data community, we apply the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
 
 ## Do you want to help our start?
 
